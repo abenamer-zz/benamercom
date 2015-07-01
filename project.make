@@ -13,7 +13,7 @@ defaults[projects][subdir] = contrib
 [projects][magic]
 
 projects[magic][subdir] = contrib
-projects[magic][version] = 7.x-2.2
+projects[magic][version] = 2.2
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
