@@ -10,10 +10,29 @@ projects[drupal][patch][] = "https://drupal.org/files/issues/install-redirect-on
 defaults[projects][subdir] = contrib
 
 ; Contrib projects
-[projects][magic]
+projects[jquery_update][subdir] = contrib
+projects[jquery_update][version] = 2.6
+
+projects[modernizr][subdir] = contrib
+projects[modernizr][version] = 3.4
+
+projects[blockify][subdir] = contrib
+projects[blockify][version] = 1.2
+
+projects[borealis][subdir] = contrib
+projects[borealis][version] = 2.2
+
+projects[fences][subdir] = contrib
+projects[fences][version] = 1.0
+
+projects[panels][subdir] = contrib
+projects[panels][version] = 3.5
 
 projects[magic][subdir] = contrib
 projects[magic][version] = 2.2
+
+projects[elements][subdir] = contrib
+projects[elements][version] = 1.4
 
 projects[html5_tools][subdir] = contrib
 projects[html5_tools][version] = 1.2
