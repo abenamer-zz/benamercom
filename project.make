@@ -34,6 +34,15 @@ projects[magic][version] = 2.2
 projects[elements][subdir] = contrib
 projects[elements][version] = 1.4
 
+projects[ctools][subdir] = contrib
+projects[ctools][version] = 1.7
+
+projects[i18n][subdir] = contrib
+projects[i18n][version] = 1.13
+
+projects[field_formatter_settings][subdir] = contrib
+projects[field_formatter_settings][version] = 1.1
+
 projects[html5_tools][subdir] = contrib
 projects[html5_tools][version] = 1.2
 
