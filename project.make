@@ -15,5 +15,11 @@ defaults[projects][subdir] = contrib
 projects[magic][subdir] = contrib
 projects[magic][version] = 2.2
 
+projects[html5_tools][subdir] = contrib
+projects[html5_tools][version] = 1.2
+
+projects[aurora][subdir] = contrib
+projects[aurora][version] = 3.5
+
 ; Platform indicator module.
 projects[platform][version] = 1.3
