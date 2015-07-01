@@ -9,5 +9,11 @@ projects[drupal][patch][] = "https://drupal.org/files/issues/install-redirect-on
 ; Drush make allows a default sub directory for all contributed projects.
 defaults[projects][subdir] = contrib
 
+; Contrib projects
+[projects][magic]
+
+projects[magic][subdir] = contrib
+projects[magic][version] = 7.x-2.2
+
 ; Platform indicator module.
 projects[platform][version] = 1.3
