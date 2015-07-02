@@ -19,6 +19,9 @@ projects[jquery_update][version] = 2.6
 projects[modernizr][subdir] = contrib
 projects[modernizr][version] = 3.4
 
+projects[ckeditor][subdir] = contrib
+projects[ckeditor][version] = 1.16
+
 projects[blockify][subdir] = contrib
 projects[blockify][version] = 1.2
 
