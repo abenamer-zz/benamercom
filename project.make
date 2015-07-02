@@ -55,7 +55,7 @@ projects[aurora][version] = 3.5
 projects[chartbeat_mostpopular][type] = module
 projects[chartbeat_mostpopular][subdir] = "custom"
 projects[chartbeat_mostpopular][download][type] = git
-projects[chartbeat_mostpopular][download][branch] = dev
+projects[chartbeat_mostpopular][download][branch] = master
 projects[chartbeat_mostpopular][download][url] = "git@github.com:abenamer/chartbeat_mostpopular.git"
 
 
