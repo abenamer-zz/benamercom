@@ -9,6 +9,9 @@ projects[drupal][patch][] = "https://drupal.org/files/issues/install-redirect-on
 ; Drush make allows a default sub directory for all contributed projects.
 defaults[projects][subdir] = contrib
 
+; Makes a custom subdirectory under modules
+defaults[projects][subdir] = custom
+
 ; Contrib projects
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.6
@@ -48,6 +51,13 @@ projects[html5_tools][version] = 1.2
 
 projects[aurora][subdir] = contrib
 projects[aurora][version] = 3.5
+
+projects[chartbeat_mostpopular][type] = module
+projects[chartbeat_mostpopular][subdir] = "custom"
+projects[chartbeat_mostpopular][download][type] = git
+projects[chartbeat_mostpopular][download][branch] = dev
+projects[chartbeat_mostpopular][download][url] = "git@github.com:abenamer/chartbeat_mostpopular.git"
+
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
