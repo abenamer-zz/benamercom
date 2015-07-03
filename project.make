@@ -61,6 +61,8 @@ projects[chartbeat_mostpopular][download][type] = git
 projects[chartbeat_mostpopular][download][branch] = master
 projects[chartbeat_mostpopular][download][url] = "git@github.com:abenamer/chartbeat_mostpopular.git"
 
+projects[mostpopular][subdir] = contrib
+projects[mostpopular][version] = 1.x-dev
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
