@@ -13,6 +13,9 @@ defaults[projects][subdir] = contrib
 defaults[projects][subdir] = custom
 
 ; Contrib projects
+projects[entity][subdir] = contrib
+projects[entity][version] = 1.6
+
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.6
 
