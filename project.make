@@ -58,6 +58,9 @@ projects[html5_tools][version] = 1.2
 projects[aurora][subdir] = contrib
 projects[aurora][version] = 3.5
 
+projects[fontyourface][subdir] = contrib
+projects[fontyourface][version] = 2.8
+
 projects[chartbeat_mostpopular][type] = module
 projects[chartbeat_mostpopular][subdir] = "custom"
 projects[chartbeat_mostpopular][download][type] = git
