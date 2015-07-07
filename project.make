@@ -78,7 +78,7 @@ projects[prettify][version] = 1.0-beta1
 
 ; Libraries
 libraries[prettify][download][type] = "file"
-libraries[html5bp][download][url] = "https://github.com/google/code-prettify/archive/master.zip"
+libraries[prettify][download][url] = "https://github.com/google/code-prettify/archive/master.zip"
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
