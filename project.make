@@ -73,6 +73,9 @@ projects[chartbeat_mostpopular][download][url] = "git@github.com:abenamer/chartb
 projects[mostpopular][subdir] = contrib
 projects[mostpopular][version] = 1.x-dev
 
+projects[prettify][subdir] = contrib
+projects[prettify][version] = 1.0-beta1
+
 ; Libraries
 libraries[prettify][download][type] = "file"
 libraries[html5bp][download][url] = "https://github.com/google/code-prettify/archive/master.zip"
