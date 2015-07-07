@@ -37,6 +37,9 @@ projects[fences][version] = 1.0
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.5
 
+projects[views][subdir] = contrib
+projects[views][version] = 3.11
+
 projects[magic][subdir] = contrib
 projects[magic][version] = 2.2
 
