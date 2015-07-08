@@ -16,17 +16,17 @@ video {
 }
 
 header[role=banner] {
-  width: 82.97872%;
+  width: 421.42857%;
   float: left;
   margin-right: -100%;
-  margin-left: 8.51064%;
+  margin-left: 0;
   clear: none;
 }
 
 main[role=main] {
-  width: 65.95745%;
+  width: 278.57143%;
   float: left;
   margin-right: -100%;
-  margin-left: 8.51064%;
+  margin-left: 35.71429%;
   clear: none;
 }

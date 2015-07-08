@@ -7,11 +7,17 @@
 // All box model properties go here
 ////////////////////////
 
-@include add-grid(12);
-@include add-gutter(1/3);
+
+@include add-grid(3); // mobile
+@include add-grid(6 at 500px); // tablet portrait
+@include add-grid(12 at 700px); // tablet landscape
+@include add-grid(10 2 at 1100px); // desktop
+
+@include add-gutter(.25);
+@include add-gutter(1/3 at 900px);
 
 header[role=banner] {
-  @include grid-span(10, 2);
+  @include grid-span(12, 1);
 
 }
 
