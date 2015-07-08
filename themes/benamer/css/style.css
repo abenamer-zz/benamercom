@@ -15,7 +15,7 @@ video {
   height: auto;
 }
 
-body {
+main {
   width: 66.10169%;
   float: left;
   margin-right: -100%;
@@ -23,7 +23,7 @@ body {
   clear: none;
 }
 @media (min-width: 650px) {
-  body {
+  main {
     width: 49.15254%;
     float: left;
     margin-right: -100%;
