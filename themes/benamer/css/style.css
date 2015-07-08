@@ -16,35 +16,17 @@ video {
 }
 
 header[role=banner] {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
+  width: 82.97872%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 8.51064%;
   clear: none;
-}
-@media (min-width: 650px) {
-  header[role=banner] {
-    width: 49.15254%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none;
-  }
 }
 
 main {
-  width: 66.10169%;
+  width: 65.95745%;
   float: left;
   margin-right: -100%;
-  margin-left: 8.47458%;
+  margin-left: 8.51064%;
   clear: none;
-}
-@media (min-width: 650px) {
-  main {
-    width: 49.15254%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 8.47458%;
-    clear: none;
-  }
 }

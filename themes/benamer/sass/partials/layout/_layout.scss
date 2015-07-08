@@ -7,22 +7,14 @@
 // All box model properties go here
 ////////////////////////
 
-$grids: 12;
-$gutters: 1/3;
-$grids: add-grid(6 at 600px);
+@include add-grid(12);
+@include add-gutter(1/3);
 
 header[role=banner] {
-  @include grid-span(12, 1);
+  @include grid-span(10, 2);
 
-  @include breakpoint(650px) {
-    @include grid-span(6, 2);
-  }
 }
 
 main {
   @include grid-span(8, 2);
-
-  @include breakpoint(650px) {
-    @include grid-span(6, 2);
-  }
 }
