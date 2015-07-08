@@ -64,6 +64,9 @@ projects[aurora][version] = 3.5
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
 
+projects[devel][subdir] = contrib
+projects[devel][version] = 1.5
+
 projects[chartbeat_mostpopular][type] = module
 projects[chartbeat_mostpopular][subdir] = "custom"
 projects[chartbeat_mostpopular][download][type] = git
