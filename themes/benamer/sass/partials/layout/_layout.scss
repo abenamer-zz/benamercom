@@ -26,10 +26,10 @@ header[role=banner] {
 
 .panel-col-first {
   @include breakpoint($desktop);
-  @include grid-span(6, 1);
+  @include grid-span(9, 4);
 }
 
 .panel-col-last {
   @include breakpoint($desktop);
-  @include grid-span(6, 7);
+  @include grid-span(3, 1);
 }
