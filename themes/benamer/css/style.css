@@ -23,7 +23,7 @@ header[role=banner] {
   clear: none;
 }
 
-main {
+main[role=main] {
   width: 65.95745%;
   float: left;
   margin-right: -100%;

@@ -15,6 +15,6 @@ header[role=banner] {
 
 }
 
-main {
+main[role=main] {
   @include grid-span(8, 2);
 }
