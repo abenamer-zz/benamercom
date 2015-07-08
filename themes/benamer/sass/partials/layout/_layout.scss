@@ -11,7 +11,7 @@ $grids: 12;
 $gutters: 1/3;
 $grids: add-grid(6 at 600px);
 
-header {
+header[role=banner] {
   @include grid-span(12, 1);
 
   @include breakpoint(650px) {
