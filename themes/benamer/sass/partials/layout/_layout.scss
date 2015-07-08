@@ -21,18 +21,18 @@ $desktop: 1100px;
 @include add-gutter(.25);
 @include add-gutter(1/3 at $desktop);
 
-header[role=banner] {
+aurora-section-first {
   @include breakpoint($desktop);
   @include grid-span(12, 1);
 }
 
-.panel-col-first {
+aurora-section-second {
   @include breakpoint($desktop);
   @include grid-span(1, 4);
   @include background-grid($color: blue);
 }
 
-.panel-col-last {
+aurora-section-third {
   @include breakpoint($desktop);
   @include grid-span(10, 2);
   @include background-grid($color: yellow);
