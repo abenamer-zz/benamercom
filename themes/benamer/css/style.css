@@ -23,10 +23,18 @@ header[role=banner] {
   clear: none;
 }
 
-main[role=main] {
-  width: 278.57143%;
+.panel-col-first {
+  width: 207.14286%;
   float: left;
   margin-right: -100%;
-  margin-left: 35.71429%;
+  margin-left: 0;
+  clear: none;
+}
+
+.panel-col-last {
+  width: 207.14286%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 214.28571%;
   clear: none;
 }

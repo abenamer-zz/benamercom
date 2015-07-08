@@ -24,7 +24,12 @@ header[role=banner] {
   @include grid-span(12, 1);
 }
 
-main[role=main] {
+.panel-col-first {
   @include breakpoint($desktop);
-  @include grid-span(8, 2);
+  @include grid-span(6, 1);
+}
+
+.panel-col-last {
+  @include breakpoint($desktop);
+  @include grid-span(6, 7);
 }
