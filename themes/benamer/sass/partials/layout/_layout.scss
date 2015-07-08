@@ -15,6 +15,6 @@ body {
   @include grid-span(8, 2);
 
   @include breakpoint(650px) {
-    @include grid-span(8, 1);
+    @include grid-span(6, 2);
   }
 }
