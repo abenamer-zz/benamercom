@@ -7,6 +7,8 @@
 // All box model properties go here
 ////////////////////////
 
+@include sgs-change('debug', true);
+
 $tablet_p: 500px;
 $tablet_l: 700px;
 $desktop: 1100px;
@@ -26,10 +28,12 @@ header[role=banner] {
 
 .panel-col-first {
   @include breakpoint($desktop);
-  @include grid-span(9, 4);
+  @include grid-span(1, 4);
+  @include background-grid($color: blue);
 }
 
 .panel-col-last {
   @include breakpoint($desktop);
-  @include grid-span(3, 1);
+  @include grid-span(10, 2);
+  @include background-grid($color: yellow);
 }
