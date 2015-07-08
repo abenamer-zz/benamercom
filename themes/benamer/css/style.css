@@ -15,6 +15,23 @@ video {
   height: auto;
 }
 
+header {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+@media (min-width: 650px) {
+  header {
+    width: 49.15254%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none;
+  }
+}
+
 main {
   width: 66.10169%;
   float: left;
