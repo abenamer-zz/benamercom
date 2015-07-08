@@ -28,12 +28,12 @@ $desktop: 1100px;
 
 .aurora-section-second {
   @include breakpoint($desktop);
-  @include grid-span(1, 4);
+  @include grid-span(8, 1);
   @include background-grid($color: blue);
 }
 
 .aurora-section-third {
   @include breakpoint($desktop);
-  @include grid-span(10, 2);
+  @include grid-span(9, 4);
   @include background-grid($color: yellow);
 }

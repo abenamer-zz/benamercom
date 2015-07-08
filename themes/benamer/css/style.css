@@ -25,11 +25,11 @@ video {
 }
 
 .aurora-section-second {
-  -sgs-span-settings: ("span": 1, "location": 4, "grid": 3, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-  width: 28.57143%;
+  -sgs-span-settings: ("span": 8, "location": 1, "grid": 3, "gutter": 0.25, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+  width: 278.57143%;
   float: left;
   margin-right: -100%;
-  margin-left: 107.14286%;
+  margin-left: 0;
   clear: none;
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220%25%22%20fill%3D%22blue%22%20width%3D%2228%2E57143%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2228%2E57143%25%22%20fill%3D%22%234040ff%22%20width%3D%227%2E14286%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2235%2E71429%25%22%20fill%3D%22blue%22%20width%3D%2228%2E57143%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2264%2E28571%25%22%20fill%3D%22%234040ff%22%20width%3D%227%2E14286%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2271%2E42857%25%22%20fill%3D%22blue%22%20width%3D%2228%2E57143%25%22%20height%3D%22100%25%22%2F%3E%3C%2Fsvg%3E");
 }
@@ -50,11 +50,11 @@ video {
 }
 
 .aurora-section-third {
-  -sgs-span-settings: ("span": 10, "location": 2, "grid": 3, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
-  width: 350%;
+  -sgs-span-settings: ("span": 9, "location": 4, "grid": 3, "gutter": 0.25, "style": "opposite", "start row": false, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": (null: null));
+  width: 314.28571%;
   float: left;
   margin-right: -100%;
-  margin-left: 35.71429%;
+  margin-left: 107.14286%;
   clear: none;
   background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww%2Ew3%2Eorg%2F2000%2Fsvg%22%3E%3Crect%20x%3D%220%25%22%20fill%3D%22yellow%22%20width%3D%2228%2E57143%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2228%2E57143%25%22%20fill%3D%22%23ffff40%22%20width%3D%227%2E14286%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2235%2E71429%25%22%20fill%3D%22yellow%22%20width%3D%2228%2E57143%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2264%2E28571%25%22%20fill%3D%22%23ffff40%22%20width%3D%227%2E14286%25%22%20height%3D%22100%25%22%2F%3E%3Crect%20x%3D%2271%2E42857%25%22%20fill%3D%22yellow%22%20width%3D%2228%2E57143%25%22%20height%3D%22100%25%22%2F%3E%3C%2Fsvg%3E");
 }
