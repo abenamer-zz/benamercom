@@ -24,16 +24,12 @@ $desktop: 1100px;
 }
 
 .aurora-section-first {
-
-
   @include breakpoint($desktop) {
     @include grid-span(12, 1);
   }
-
 }
 
 .aurora-section-second {
-  background: rgba(yellow, .5);
   @include grid-span(2, 1);
 
   @include breakpoint($tablet-p) {
@@ -50,12 +46,13 @@ $desktop: 1100px;
 }
 
 .aurora-section-third {
-  background: rgba(blue, .3);
 
   @include grid-span(1, 3);
+
   @include breakpoint($tablet-p) {
     @include grid-span(2, 5);
   }
+
   @include breakpoint($tablet-l) {
     @include grid-span(3, 10);
   }
