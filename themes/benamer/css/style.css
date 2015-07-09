@@ -16,27 +16,27 @@ video {
 }
 
 .aurora-section-first {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
-}
-
-.aurora-section-third {
-  background: rgba(0, 0, 255, 0.3);
-  width: 23.72881%;
+  width: 421.42857%;
   float: left;
   margin-right: -100%;
-  margin-left: 67.79661%;
+  margin-left: 0;
   clear: none;
 }
 
 .aurora-section-second {
   background: rgba(255, 255, 0, 0.5);
-  width: 74.57627%;
+  width: 314.28571%;
   float: left;
   margin-right: -100%;
   margin-left: 0;
+  clear: none;
+}
+
+.aurora-section-third {
+  background: rgba(0, 0, 255, 0.3);
+  width: 100%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 285.71429%;
   clear: none;
 }
