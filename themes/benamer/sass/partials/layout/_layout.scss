@@ -11,12 +11,12 @@ $tablet_p: 500px;
 $tablet_l: 700px;
 $desktop: 1100px;
 
-@include add-grid(3); // mobile
-@include add-grid(6 at $tablet_p); // tablet portrait
-@include add-grid(12 at $tablet_l); // tablet landscape
+//@include add-grid(3); // mobile
+//@include add-grid(6 at $tablet_p); // tablet portrait
+//@include add-grid(12 at $tablet_l); // tablet landscape
 @include add-grid(12 at $desktop); // desktop
 
-@include add-gutter(.25);
+//@include add-gutter(.25);
 @include add-gutter(1/3 at $desktop);
 
 .aurora-section-first {
@@ -27,7 +27,7 @@ $desktop: 1100px;
 .aurora-section-third {
   background: rgba(blue, .3);
   @include breakpoint($desktop);
-  @include grid-span(3, 10);
+  @include grid-span(3, 9);
 }
 
 .aurora-section-second {
