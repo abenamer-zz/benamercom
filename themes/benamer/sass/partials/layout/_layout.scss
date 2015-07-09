@@ -7,8 +7,6 @@
 // All box model properties go here
 ////////////////////////
 
-@include sgs-change('debug', true);
-
 $tablet_p: 500px;
 $tablet_l: 700px;
 $desktop: 1100px;
@@ -25,15 +23,11 @@ $desktop: 1100px;
   @include breakpoint($desktop);
   @include grid-span(12, 1);
 }
-
 .aurora-section-second {
   @include breakpoint($desktop);
-  @include grid-span(8, 1);
-  @include background-grid($color: blue);
+  @include grid-span(9, 1);
 }
-
 .aurora-section-third {
   @include breakpoint($desktop);
-  @include grid-span(3, 9);
-  @include background-grid($color: yellow);
+  @include grid-span(3, 10);
 }
