@@ -31,7 +31,8 @@ $desktop: 1100px;
 .aurora-section-second {
   background: rgba(yellow, .5);
   @include breakpoint(1100px);
-    @include grid-span(8, 1);
+  @include grid-span(8, 1, $output-style: 'float');
+  clear: both;
 }
 
 .aurora-section-third {

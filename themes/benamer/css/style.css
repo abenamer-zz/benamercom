@@ -32,10 +32,11 @@ video {
 .aurora-section-second {
   background: rgba(255, 255, 0, 0.5);
   width: 66.10169%;
+  clear: right;
   float: left;
-  margin-right: -100%;
   margin-left: 0;
-  clear: none;
+  margin-right: 1.69492%;
+  clear: both;
 }
 
 .aurora-section-third {
