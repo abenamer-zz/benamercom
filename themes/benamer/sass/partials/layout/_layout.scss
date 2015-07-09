@@ -23,11 +23,15 @@ $desktop: 1100px;
   @include breakpoint($desktop);
   @include grid-span(12, 1);
 }
-.aurora-section-second {
-  @include breakpoint($desktop);
-  @include grid-span(6, 1);
-}
+
 .aurora-section-third {
+  background: rgba(blue, .3);
   @include breakpoint($desktop);
-  @include grid-span(6, 10);
+  @include grid-span(3, 10);
+}
+
+.aurora-section-second {
+  background: rgba(yellow, .5);
+  @include breakpoint($desktop);
+  @include grid-span(9, 1);
 }
