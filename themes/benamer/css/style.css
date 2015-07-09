@@ -22,28 +22,32 @@ video {
 }
 
 .aurora-section-first {
-  width: 100%;
-  float: right;
+  width: 421.42857%;
+  float: left;
+  margin-right: -100%;
   margin-left: 0;
-  margin-right: 0;
   clear: none;
 }
 
 .aurora-section-second {
   background: rgba(255, 255, 0, 0.5);
-  width: 66.10169%;
+  width: 278.57143%;
   clear: right;
   float: left;
   margin-left: 0;
-  margin-right: 1.69492%;
+  margin-right: 7.14286%;
   clear: both;
 }
 
 .aurora-section-third {
   background: rgba(0, 0, 255, 0.3);
-  width: 32.20339%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
+  width: 135.71429%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 285.71429%;
   clear: none;
+}
+
+h1 {
+  font-size: 24px;
 }
