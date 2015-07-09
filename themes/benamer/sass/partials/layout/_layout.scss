@@ -31,11 +31,11 @@ $desktop: 1100px;
 .aurora-section-second {
   background: rgba(yellow, .5);
   @include breakpoint(1100px);
-    @include grid-span(9, 1);
+    @include grid-span(8, 1);
 }
 
 .aurora-section-third {
   background: rgba(blue, .3);
   @include breakpoint(1100px);
-  @include grid-span(9, 3);
+  @include grid-span(4, 9);
 }
