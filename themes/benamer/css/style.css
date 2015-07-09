@@ -21,22 +21,51 @@ video {
   clear: both;
 }
 
-.aurora-section-first {
-  width: 421.42857%;
+@media (min-width: 1100px) {
+  .aurora-section-first {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+
+.aurora-section-second {
+  background: rgba(255, 255, 0, 0.5);
+  width: 64.28571%;
   float: left;
   margin-right: -100%;
   margin-left: 0;
   clear: none;
 }
-
-.aurora-section-second {
-  background: rgba(255, 255, 0, 0.5);
-  width: 278.57143%;
-  clear: right;
-  float: left;
-  margin-left: 0;
-  margin-right: 7.14286%;
-  clear: both;
+@media (min-width: 500px) {
+  .aurora-section-second {
+    width: 65.51724%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+@media (min-width: 700px) {
+  .aurora-section-second {
+    width: 74.57627%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1100px) {
+  .aurora-section-second {
+    width: 65.95745%;
+    clear: right;
+    float: left;
+    margin-left: 0;
+    margin-right: 2.12766%;
+    clear: both;
+  }
 }
 
 .aurora-section-third {

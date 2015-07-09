@@ -24,15 +24,29 @@ $desktop: 1100px;
 }
 
 .aurora-section-first {
-  @include breakpoint($desktop);
-  @include grid-span(12, 1);
+
+
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1);
+  }
+
 }
 
 .aurora-section-second {
   background: rgba(yellow, .5);
-  @include breakpoint($desktop);
-  @include grid-span(8, 1, $output-style: 'float');
-  clear: both;
+  @include grid-span(2, 1);
+
+  @include breakpoint($tablet-p) {
+    @include grid-span(4, 1);
+  }
+  @include breakpoint($tablet-l) {
+    @include grid-span(9, 1);
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(8, 1, $output-style: 'float');
+    clear: both;
+  }
 }
 
 .aurora-section-third {
