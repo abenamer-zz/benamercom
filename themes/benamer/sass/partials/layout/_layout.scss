@@ -45,12 +45,22 @@ $desktop: 1100px;
 
   @include breakpoint($desktop) {
     @include grid-span(8, 1, $output-style: 'float');
-    clear: both;
   }
+  clear: both;
 }
 
 .aurora-section-third {
   background: rgba(blue, .3);
-  @include breakpoint($desktop);
-  @include grid-span(4, 9);
+
+  @include grid-span(1, 2);
+  @include breakpoint($tablet-p) {
+    @include grid-span(2, 5);
+  }
+  @include breakpoint($tablet-l) {
+    @include grid-span(3, 10);
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(4, 9);
+  }
 }

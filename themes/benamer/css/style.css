@@ -38,6 +38,7 @@ video {
   margin-right: -100%;
   margin-left: 0;
   clear: none;
+  clear: both;
 }
 @media (min-width: 500px) {
   .aurora-section-second {
@@ -64,17 +65,43 @@ video {
     float: left;
     margin-left: 0;
     margin-right: 2.12766%;
-    clear: both;
   }
 }
 
 .aurora-section-third {
   background: rgba(0, 0, 255, 0.3);
-  width: 135.71429%;
+  width: 28.57143%;
   float: left;
   margin-right: -100%;
-  margin-left: 285.71429%;
+  margin-left: 35.71429%;
   clear: none;
+}
+@media (min-width: 500px) {
+  .aurora-section-third {
+    width: 31.03448%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 700px) {
+  .aurora-section-third {
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1100px) {
+  .aurora-section-third {
+    width: 31.91489%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
 }
 
 h1 {
