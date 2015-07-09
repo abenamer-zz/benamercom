@@ -19,7 +19,7 @@ $desktop: 1100px;
 @include add-gutter(.25);
 @include add-gutter(1/3 at 1100px);
 
-body {
+.aurora-sample-layout {
   @include clearfix;
 }
 

@@ -15,7 +15,7 @@ video {
   height: auto;
 }
 
-body:after {
+.aurora-sample-layout:after {
   content: "";
   display: table;
   clear: both;
