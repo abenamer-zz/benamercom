@@ -25,9 +25,9 @@ $desktop: 1100px;
 }
 .aurora-section-second {
   @include breakpoint($desktop);
-  @include grid-span(9, 1);
+  @include grid-span(6, 1);
 }
 .aurora-section-third {
   @include breakpoint($desktop);
-  @include grid-span(3, 10);
+  @include grid-span(6, 10);
 }
