@@ -28,6 +28,9 @@ projects[ckeditor][version] = 1.16
 projects[blockify][subdir] = contrib
 projects[blockify][version] = 1.2
 
+projects[media][subdir] = contrib
+projects[media][version] = 1.5
+
 projects[borealis][subdir] = contrib
 projects[borealis][version] = 2.2
 
