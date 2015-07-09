@@ -20,7 +20,7 @@ $desktop: 1100px;
 @include add-gutter(1/3 at 1100px);
 
 body {
-  width:100%;
+  @include clearfix;
 }
 
 .aurora-section-first {

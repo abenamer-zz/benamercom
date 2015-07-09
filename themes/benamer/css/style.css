@@ -15,8 +15,10 @@ video {
   height: auto;
 }
 
-body {
-  width: 100%;
+body:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .aurora-section-first {
