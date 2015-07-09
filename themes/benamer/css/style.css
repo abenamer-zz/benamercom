@@ -107,5 +107,7 @@ h1 {
 }
 
 .aurora-section-first {
-  background-image: url("http://benamer.com/sites/default/themes/benamer/img/benamercom-header.jpg");
+  background-image: url("../img/benamercom-header.jpg");
+  text-align: center;
+  color: white;
 }
