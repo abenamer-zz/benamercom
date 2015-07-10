@@ -23,13 +23,13 @@ $desktop: 1100px;
   @include clearfix;
 }
 
-main.aurora-sample-layout .aurora-section-first {
+main .aurora-section-first {
   @include breakpoint($desktop) {
     @include grid-span(12, 1);
   }
 }
 
-main.aurora-sample-layout .aurora-section-second {
+main .aurora-section-second {
   @include grid-span(2, 1);
 
   @include breakpoint($tablet-p) {
@@ -45,7 +45,7 @@ main.aurora-sample-layout .aurora-section-second {
   clear: both;
 }
 
-main.aurora-sample-layout .aurora-section-third {
+main .aurora-section-third {
 
   @include grid-span(1, 3);
 
