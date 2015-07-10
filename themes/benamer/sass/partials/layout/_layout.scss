@@ -27,6 +27,7 @@ main .aurora-section-first {
   @include breakpoint($desktop) {
     @include grid-span(12, 1);
   }
+  height: 100%;
 }
 
 main .aurora-section-second {

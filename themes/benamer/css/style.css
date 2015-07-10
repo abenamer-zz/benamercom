@@ -21,6 +21,9 @@ video {
   clear: both;
 }
 
+main .aurora-section-first {
+  height: 100%;
+}
 @media (min-width: 1100px) {
   main .aurora-section-first {
     width: 100%;
