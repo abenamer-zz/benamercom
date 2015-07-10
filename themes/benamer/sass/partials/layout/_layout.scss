@@ -28,10 +28,12 @@ main .aurora-section-first {
   @include grid-span(3, 1);
 
   @include breakpoint($tablet-p) {
-    @include grid-span(6, 1, $output-style: 'float');
+    @include grid-span(6, 1);
+    clear: left;
   }
   @include breakpoint($tablet-l) {
-    @include grid-span(12, 1, $output-style: 'float');
+    @include grid-span(12, 1);
+    clear: left;
   }
   @include breakpoint($desktop) {
     @include grid-span(12, 1, $output-style: 'float');
