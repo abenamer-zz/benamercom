@@ -60,10 +60,10 @@ video {
 @media (min-width: 1100px) {
   .aurora-section-second {
     width: 65.95745%;
+    clear: right;
     float: left;
-    margin-right: -100%;
     margin-left: 0;
-    clear: none;
+    margin-right: 2.12766%;
   }
 }
 
