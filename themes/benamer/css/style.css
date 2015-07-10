@@ -27,7 +27,8 @@ main .aurora-section-first {
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  height: 1800px;
+  height: 180px;
+  clear: both;
 }
 @media (min-width: 500px) {
   main .aurora-section-first {
@@ -77,6 +78,7 @@ main .aurora-section-second {
     margin-right: -100%;
     margin-left: 0;
     clear: none;
+    clear: both;
   }
 }
 @media (min-width: 700px) {
@@ -86,6 +88,7 @@ main .aurora-section-second {
     margin-right: -100%;
     margin-left: 0;
     clear: none;
+    clear: both;
   }
 }
 @media (min-width: 1100px) {
@@ -95,6 +98,7 @@ main .aurora-section-second {
     float: left;
     margin-left: 0;
     margin-right: 2.12766%;
+    clear: both;
   }
 }
 

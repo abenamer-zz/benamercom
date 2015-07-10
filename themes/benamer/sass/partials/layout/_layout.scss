@@ -26,7 +26,9 @@ $desktop: 1100px;
 
 main .aurora-section-first {
   @include grid-span(3, 1);
-  height: 1800px;
+  height: 180px;
+  clear: both;
+
   @include breakpoint($tablet-p) {
     @include grid-span(6, 1);
     clear: both;
@@ -47,18 +49,21 @@ main .aurora-section-first {
 
 main .aurora-section-second {
   @include grid-span(2, 1);
-
+  clear: both;
   @include breakpoint($tablet-p) {
     @include grid-span(4, 1);
+    clear: both;
   }
   @include breakpoint($tablet-l) {
     @include grid-span(9, 1);
+    clear: both;
   }
 
   @include breakpoint($desktop) {
     @include grid-span(8, 1, $output-style: 'float');
+    clear: both;
   }
-  clear: both;
+
 }
 
 main .aurora-section-third {
