@@ -28,6 +28,7 @@ main .aurora-section-first {
   margin-right: 0;
   clear: none;
   height: 360px;
+  clear: both;
 }
 @media (min-width: 500px) {
   main .aurora-section-first {
