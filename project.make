@@ -86,5 +86,9 @@ projects[prettify][version] = 1.0-beta1
 libraries[prettify][download][type] = "file"
 libraries[prettify][download][url] = "https://github.com/google/code-prettify/archive/master.zip"
 
+libraries[modernizr][download][type] = "file"
+libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/master.zip"
+
+
 ; Platform indicator module.
 projects[platform][version] = 1.3
