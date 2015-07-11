@@ -1,5 +1,5 @@
 <?php
-$cookie_domain = '.example.com';
+$cookie_domain = '.benamer.com';
 
 $update_free_access = FALSE;
 
