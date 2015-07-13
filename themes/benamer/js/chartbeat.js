@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 var _sf_async_config = { uid: 61071, domain: 'benamer.com', useCanonical: true };
 (function() {
     function loadChartbeat() {
@@ -13,4 +13,3 @@ var _sf_async_config = { uid: 61071, domain: 'benamer.com', useCanonical: true }
     window.onload = (typeof window.onload != 'function') ?
         loadChartbeat : function() { oldonload(); loadChartbeat(); };
 })();
-</script>
