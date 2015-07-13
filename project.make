@@ -139,12 +139,10 @@ libraries[modernizr][download][type] = "file"
 libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.8.3.zip"
 
 libraries[text-statistics][download][type] = "file"
-libraries[text-statistics][download][url] = "hhttps://github.com/DaveChild/Text-Statistics/archive/1.0.1.zip"
+libraries[text-statistics][download][url] = "https://github.com/DaveChild/Text-Statistics/archive/1.0.1.zip"
 
 libraries[alchemyapi][download][type] = "file"
-libraries[alchemyapigit ][download][url] = "http://alchemyapi.com/sites/default/files/sdk/AlchemyAPI_PHP5-0.8.tar.gz"
-
-
+libraries[alchemyapi][download][url] = "http://alchemyapi.com/sites/default/files/sdk/AlchemyAPI_PHP5-0.8.tar.gz"
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
