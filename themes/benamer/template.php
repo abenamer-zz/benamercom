@@ -49,7 +49,7 @@ function benamer_preprocess_html(&$vars) {
  */
 
 function benamer_preprocess_page(&$vars) {
-    drupal_add_js('js/chartbeat.js',
+    drupal_add_js(drupal_get_path('theme', 'benamer').'js/chartbeat.js',
         array('type' => 'file', 'scope' => 'footer')
     );
 }
