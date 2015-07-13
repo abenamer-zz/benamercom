@@ -167,6 +167,9 @@ ul li.first.leaf {
 ul li.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
+  font-size: 1.25em;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 ul li.last.leaf {
@@ -186,16 +189,19 @@ ul.menu {
   list-style-type: none;
 }
 
-ul li.first.leaf a:link {
+ul li.first.leaf a:link, ul li.last.leaf a:visited {
   color: whitesmoke;
+  text-decoration: none;
 }
 
-ul li.leaf a:link {
+ul li.leaf a:link, ul li.last.leaf a:visited {
   color: whitesmoke;
+  text-decoration: none;
 }
 
-ul li.last.leaf a:link {
+ul li.last.leaf a:link, ul li.last.leaf a:visited {
   color: whitesmoke;
+  text-decoration: none;
 }
 
 h2 {
