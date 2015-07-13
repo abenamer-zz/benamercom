@@ -134,8 +134,16 @@ projects[prettify][version] = 1.0-beta1
 libraries[prettify][download][type] = "file"
 libraries[prettify][download][url] = "https://github.com/google/code-prettify/archive/master.zip"
 
+
 libraries[modernizr][download][type] = "file"
-libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/master.zip"
+libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.8.3.zip"
+
+libraries[text-statistics][download][type] = "file"
+libraries[text-statistics][download][url] = "hhttps://github.com/DaveChild/Text-Statistics/archive/1.0.1.zip"
+
+libraries[alchemyapi][download][type] = "file"
+libraries[alchemyapigit ][download][url] = "http://alchemyapi.com/sites/default/files/sdk/AlchemyAPI_PHP5-0.8.tar.gz"
+
 
 
 ; Platform indicator module.
