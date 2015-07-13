@@ -23,6 +23,9 @@ h1#site-title {
   font-weight: 700;
   text-align: center;
   margin-top: -.125em;
+  @include breakpoint($tablet-l) {
+    text-align: right;
+  }
 }
 
 ul li.first.leaf {
@@ -30,17 +33,12 @@ ul li.first.leaf {
   border-right: 1px solid #e2e2e2;
   font-size: .35em;
   @include breakpoint($tablet-p) {
-    @include grid-span(6, 1);
     font-size: .85em;
   }
   @include breakpoint($tablet-l) {
-    @include grid-span(12, 1);
-    clear: both;
     font-size: .85em;
   }
   @include breakpoint($desktop) {
-    @include grid-span(12, 1);
-    clear: both;
     font-size: 1.5em;
   }
 }
@@ -53,17 +51,12 @@ ul li.leaf {
   padding-left: 15px;
 
   @include breakpoint($tablet-p) {
-    @include grid-span(6, 1);
     font-size: .85em;
   }
   @include breakpoint($tablet-l) {
-    @include grid-span(12, 1);
-    clear: both;
     font-size: .85em;
   }
   @include breakpoint($desktop) {
-    @include grid-span(12, 1);
-    clear: both;
     font-size: 1.5em;
   }
 }
@@ -71,14 +64,29 @@ ul li.leaf {
 ul li.last.leaf {
   float: left;
   border-right: 0px;
-  font-size: .5em;
+  font-size: .35em;
+  @include breakpoint($tablet-p) {
+    font-size: .85em;
+  }
+  @include breakpoint($tablet-l) {
+    font-size: .85em;
+  }
+  @include breakpoint($desktop) {
+    font-size: 1.5em;
+  }
+}
+
+.panel-pane.pane-block.pane-system-main-menu {
+  margin-top: -1em;
   @include breakpoint($tablet-p) {
     @include grid-span(6, 1);
+    margin-top: -2.55em;
+    margin-left: -3em;
     font-size: .85em;
   }
   @include breakpoint($tablet-l) {
     @include grid-span(12, 1);
-    clear: both;
+    margin-top: -2.75em;
     font-size: .85em;
   }
   @include breakpoint($desktop) {
@@ -86,10 +94,6 @@ ul li.last.leaf {
     clear: both;
     font-size: 1.5em;
   }
-}
-
-.panel-pane.pane-block.pane-system-main-menu {
-  margin-top: -5em;
 }
 
 ul.menu {
