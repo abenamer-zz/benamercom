@@ -30,6 +30,7 @@ projects[pathauto][version] = 1.2
 
 projects[seotools][subdir] = contrib
 projects[seotools][version] = 1.0-alpha6
+projects[seotools][patch][] = "https://www.drupal.org/files/issues/seotools-n2226563-4.patch"
 
 projects[kwresearch][subdir] = contrib
 projects[kwresearch][version] = 1.x-dev
