@@ -142,7 +142,7 @@ h1 {
 }
 
 .aurora-section-first {
-  background-image: url("../img/benamercom-header.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/benamercom-header.jpg");
   text-align: right;
   color: white;
 }
@@ -189,19 +189,22 @@ ul.menu {
   list-style-type: none;
 }
 
-ul li.first.leaf a:link, ul li.last.leaf a:visited {
+ul li.first.leaf a:link, a:visited {
   color: whitesmoke;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-ul li.leaf a:link, ul li.last.leaf a:visited {
+ul li.leaf a:link, a:visited {
   color: whitesmoke;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-ul li.last.leaf a:link, ul li.last.leaf a:visited {
+ul li.last.leaf a:link, a:visited {
   color: whitesmoke;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 h2 {
