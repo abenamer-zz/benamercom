@@ -19,12 +19,18 @@ div .pane-blockify-blockify-site-slogan {
 }
 
 h1#site-title {
+
+  // mobile first
   font-family: 'Lobster Two';
   font-weight: 700;
-  text-align: center;
+  text-align: right;
   margin-top: -.125em;
+  margin-right: 1em;
+  font-size: 2em;
+
   @include breakpoint($tablet-p) {
-    font-size: 3  em;
+    text-align: center;
+    font-size: 3em;
   }
   @include breakpoint($tablet-l) {
     text-align: center;
@@ -85,23 +91,27 @@ ul li.last.leaf {
 }
 
 .panel-pane.pane-block.pane-system-main-menu {
-  margin-top: -1em;
+  // mobile first
+  margin-top: -2em;
+  margin-left: -2em;
+
   @include breakpoint($tablet-p) {
     @include grid-span(6, 1);
-    margin-top: -2.55em;
+    margin-top: -3.25em;
     margin-left: -3em;
-    font-size: .85em;
+    font-size: 1.15em;
   }
   @include breakpoint($tablet-l) {
     @include grid-span(12, 1);
     width: 80%;
-    margin-top: -2.75em;
-    font-size: .85em;
+    margin-top: -4.5em;
+    font-size: 1.15em;
   }
   @include breakpoint($desktop) {
     @include grid-span(12, 1);
     clear: both;
-    font-size: 1.5em;
+    font-size: 1.15em;
+    margin-top: -5.5em;
   }
 }
 
