@@ -79,6 +79,9 @@ projects[chartbeat_mostpopular][download][url] = "git@github.com:abenamer/chartb
 projects[mostpopular][subdir] = contrib
 projects[mostpopular][version] = 1.x-dev
 
+projects[google_tag][subdir] = contrib
+projects[google_tag][version] = 1.0
+
 projects[prettify][subdir] = contrib
 projects[prettify][version] = 1.0-beta1
 
