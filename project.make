@@ -19,8 +19,35 @@ projects[entity][version] = 1.6
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc3
 
+projects[globalredirect][subdir] = contrib
+projects[globalredirect][version] = 1.5
+
+projects[insight][subdir] = contrib
+projects[insight][version] = 1.x-dev
+
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
+
+projects[seotools][subdir] = contrib
+projects[seotools][version] = 1.0-alpha6
+
+projects[kwresearch][subdir] = contrib
+projects[kwresearch][version] = 1.x-dev
+
+projects[features][subdir] = contrib
+projects[features][version] = 2.6
+
+projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 2.x-dev
+
+projects[alchemy][subdir] = contrib
+projects[alchemy][version] = 1.0-beta1
+
+projects[contentanalysis][subdir] = contrib
+projects[contentanalysis][version] = 1.0-beta7
+
+projects[contentoptimizer][subdir] = contrib
+projects[contentoptimizer][version] = 2.0-beta4
 
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.6
