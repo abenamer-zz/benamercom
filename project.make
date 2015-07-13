@@ -35,6 +35,9 @@ projects[seotools][patch][] = "https://www.drupal.org/files/issues/seotools-n222
 projects[kwresearch][subdir] = contrib
 projects[kwresearch][version] = 1.x-dev
 
+projects[kwanalysis][subdir] = contrib
+projects[kwanalysis][version] = 1.0-beta3
+
 projects[features][subdir] = contrib
 projects[features][version] = 2.6
 
