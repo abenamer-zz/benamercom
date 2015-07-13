@@ -47,9 +47,11 @@ function benamer_preprocess_html(&$vars) {
  * @param $vars
  *   An array of variables to pass to the theme template.
  */
-/* -- Delete this line if you want to use this function
-function benamer_preprocess_page(&$vars) {
 
+function benamer_preprocess_page(&$vars) {
+    drupal_add_js('js/chartbeat.js',
+        array('type' => 'file', 'scope' => 'footer')
+    );
 }
 
 /**
