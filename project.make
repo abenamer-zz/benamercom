@@ -49,6 +49,18 @@ projects[contentanalysis][version] = 1.0-beta7
 projects[contentoptimizer][subdir] = contrib
 projects[contentoptimizer][version] = 2.0-beta4
 
+projects[libraries][subdir] = contrib
+projects[libraries][version] = 2.2
+
+projects[metatag][subdir] = contrib
+projects[metatag][version] = 1.6
+
+projects[token][subdir] = contrib
+projects[token][version] = 1.6
+
+projects[xmlsitemap][subdir] = contrib
+projects[xmlsitemap][version] = 2.2
+
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.6
 
