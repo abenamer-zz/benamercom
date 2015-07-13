@@ -23,6 +23,8 @@ stylesheets[print][] = 'css/print.css'
 ; ========================================
 ; Scripts
 ; ========================================
+scripts[] = myscript.js
+scripts[] = chartbeat.js
 
 ; ========================================
 ; Modernizr
