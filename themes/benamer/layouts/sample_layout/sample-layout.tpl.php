@@ -8,7 +8,7 @@
 
 <div class="panel-layout aurora-sample-layout <?php if (!empty($class)) { print $class; } ?>" <?php if (!empty($css_id)) { print 'id="' . $css_id . '"'; } ?>>
   <section class="aurora-sample-section aurora-section-first">
-    TEST TEST TEST<?php print $content['first']; ?>
+    <?php print $content['first']; ?>
   </section>
   <section class="aurora-sample-section aurora-section-second">
     <?php print $content['second']; ?>

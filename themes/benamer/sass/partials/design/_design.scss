@@ -28,21 +28,64 @@ h1#site-title {
 ul li.first.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
-  font-size: 1.25em;
+  font-size: .35em;
+  @include breakpoint($tablet-p) {
+    @include grid-span(6, 1);
+    font-size: .85em;
+  }
+  @include breakpoint($tablet-l) {
+    @include grid-span(12, 1);
+    clear: both;
+    font-size: .85em;
+  }
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1);
+    clear: both;
+    font-size: 1.5em;
+  }
 }
 
 ul li.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
-  font-size: 1.25em;
+  font-size: .35em;
   padding-right: 15px;
   padding-left: 15px;
+
+  @include breakpoint($tablet-p) {
+    @include grid-span(6, 1);
+    font-size: .85em;
+  }
+  @include breakpoint($tablet-l) {
+    @include grid-span(12, 1);
+    clear: both;
+    font-size: .85em;
+  }
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1);
+    clear: both;
+    font-size: 1.5em;
+  }
 }
 
 ul li.last.leaf {
   float: left;
   border-right: 0px;
-  font-size: 1.25em;
+  font-size: .5em;
+  @include breakpoint($tablet-p) {
+    @include grid-span(6, 1);
+    font-size: .85em;
+  }
+  @include breakpoint($tablet-l) {
+    @include grid-span(12, 1);
+    clear: both;
+    font-size: .85em;
+  }
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1);
+    clear: both;
+    font-size: 1.5em;
+  }
 }
 
 .panel-pane.pane-block.pane-system-main-menu {

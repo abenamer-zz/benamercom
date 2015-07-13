@@ -157,21 +157,117 @@ h1#site-title {
 ul li.first.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
-  font-size: 1.25em;
+  font-size: .35em;
+}
+@media (min-width: 500px) {
+  ul li.first.leaf {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    font-size: .85em;
+  }
+}
+@media (min-width: 700px) {
+  ul li.first.leaf {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: both;
+    font-size: .85em;
+  }
+}
+@media (min-width: 1100px) {
+  ul li.first.leaf {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: both;
+    font-size: 1.5em;
+  }
 }
 
 ul li.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
-  font-size: 1.25em;
+  font-size: .35em;
   padding-right: 15px;
   padding-left: 15px;
+}
+@media (min-width: 500px) {
+  ul li.leaf {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    font-size: .85em;
+  }
+}
+@media (min-width: 700px) {
+  ul li.leaf {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: both;
+    font-size: .85em;
+  }
+}
+@media (min-width: 1100px) {
+  ul li.leaf {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: both;
+    font-size: 1.5em;
+  }
 }
 
 ul li.last.leaf {
   float: left;
   border-right: 0px;
-  font-size: 1.25em;
+  font-size: .5em;
+}
+@media (min-width: 500px) {
+  ul li.last.leaf {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    font-size: .85em;
+  }
+}
+@media (min-width: 700px) {
+  ul li.last.leaf {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: both;
+    font-size: .85em;
+  }
+}
+@media (min-width: 1100px) {
+  ul li.last.leaf {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: both;
+    font-size: 1.5em;
+  }
 }
 
 .panel-pane.pane-block.pane-system-main-menu {
