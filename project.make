@@ -16,6 +16,12 @@ defaults[projects][subdir] = custom
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.6
 
+projects[redirect][subdir] = contrib
+projects[redirect][version] = 1.0-rc3
+
+projects[pathauto][subdir] = contrib
+projects[pathauto][version] = 1.2
+
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][version] = 2.6
 
