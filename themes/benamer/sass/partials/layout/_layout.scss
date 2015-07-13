@@ -8,8 +8,8 @@
 ////////////////////////
 
 $mobile: 300px;
-$tablet-p: 500px;
-$tablet-l: 700px;
+$tablet-p: 760px;
+$tablet-l: 1000px;
 $desktop: 1100px;
 
 @include add-grid(3); // mobile
