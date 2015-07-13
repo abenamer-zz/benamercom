@@ -130,6 +130,12 @@ projects[google_tag][version] = 1.0
 projects[prettify][subdir] = contrib
 projects[prettify][version] = 1.0-beta1
 
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version] = 3.0-rc5
+
+projects[module_filter][subdir] = contrib
+projects[module_filter][version] = 2.0
+
 ; Libraries
 libraries[prettify][download][type] = "file"
 libraries[prettify][download][url] = "https://github.com/google/code-prettify/archive/master.zip"
