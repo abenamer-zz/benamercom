@@ -2646,10 +2646,9 @@ main .aurora-section-second {
 }
 @media (min-width: 1024px) {
   main .aurora-section-second {
-    width: 65.95745%;
+    width: 57.44681%;
     clear: right;
     float: left;
-    margin-left: 0;
     margin-right: 2.12766%;
     clear: both;
   }
@@ -2673,10 +2672,10 @@ main .aurora-section-third {
 }
 @media (min-width: 1024px) {
   main .aurora-section-third {
-    width: 31.91489%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
+    width: 23.40426%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 68.08511%;
     clear: none;
   }
 }
