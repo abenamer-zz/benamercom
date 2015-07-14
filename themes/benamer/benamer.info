@@ -30,3 +30,8 @@ stylesheets[print][] = 'css/print.css'
 ; ========================================
 
 modernizr[tests][] = css_boxsizing
+
+; ========================================
+; Panels
+; ========================================
+plugins[panels][layouts] = layouts
