@@ -69,10 +69,10 @@ ul li.last.leaf {
   border-right: 0px;
   font-size: .35em;
   @include breakpoint($tablet) {
-    font-size: .85em;
+    font-size: 1em;
   }
   @include breakpoint($desktop) {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -92,9 +92,9 @@ ul li.last.leaf {
     @include grid-span(12, 1);
     clear: both;
     font-size: 1.15em;
-    margin-top: -5.5em;
+    margin-top: -5.25em;
   }
-}
+}   
 
 ul.menu {
   border: none;
@@ -104,18 +104,18 @@ ul.menu {
 }
 
 ul li.first.leaf a:link, a:visited {
-  color:whitesmoke;
+  color:darkgray;
   text-decoration:none;
   text-transform: uppercase;
 }
 ul li.leaf a:link, a:visited {
-  color:whitesmoke;
+  color:darkgray;
   text-decoration:none;
   text-transform: uppercase;
 }
 
 ul li.last.leaf a:link, a:visited {
-  color:whitesmoke;
+  color:darkgray;
   text-decoration:none;
   text-transform: uppercase;
 }

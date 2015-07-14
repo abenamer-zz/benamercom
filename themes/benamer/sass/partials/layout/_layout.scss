@@ -9,7 +9,7 @@
 
 $mobile: 300px;
 $tablet: 600px;
-$desktop: 1020px;
+$desktop: 1024px;
 
 @include add-grid(3); // mobile
 @include add-grid(6 at $tablet); // tablet portrait

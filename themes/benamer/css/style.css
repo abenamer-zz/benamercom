@@ -41,7 +41,7 @@ main .aurora-section-first {
     height: 180px;
   }
 }
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   main .aurora-section-first {
     width: 100%;
     clear: right;
@@ -70,7 +70,7 @@ main .aurora-section-second {
     clear: both;
   }
 }
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   main .aurora-section-second {
     width: 65.95745%;
     clear: right;
@@ -97,7 +97,7 @@ main .aurora-section-third {
     clear: none;
   }
 }
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   main .aurora-section-third {
     width: 31.91489%;
     float: right;
@@ -131,7 +131,7 @@ h1#site-title {
     font-size: 3em;
   }
 }
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   h1#site-title {
     text-align: center;
     font-size: 3em;
@@ -148,7 +148,7 @@ ul li.first.leaf {
     font-size: 1em;
   }
 }
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   ul li.first.leaf {
     font-size: 1em;
   }
@@ -166,7 +166,7 @@ ul li.leaf {
     font-size: 1em;
   }
 }
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   ul li.leaf {
     font-size: 1em;
   }
@@ -179,12 +179,12 @@ ul li.last.leaf {
 }
 @media (min-width: 600px) {
   ul li.last.leaf {
-    font-size: .85em;
+    font-size: 1em;
   }
 }
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   ul li.last.leaf {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -204,7 +204,7 @@ ul li.last.leaf {
     font-size: 1.15em;
   }
 }
-@media (min-width: 1020px) {
+@media (min-width: 1024px) {
   .panel-pane.pane-block.pane-system-main-menu {
     width: 100%;
     float: right;
@@ -213,7 +213,7 @@ ul li.last.leaf {
     clear: none;
     clear: both;
     font-size: 1.15em;
-    margin-top: -5.5em;
+    margin-top: -5.25em;
   }
 }
 
@@ -225,19 +225,19 @@ ul.menu {
 }
 
 ul li.first.leaf a:link, a:visited {
-  color: whitesmoke;
+  color: darkgray;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 ul li.leaf a:link, a:visited {
-  color: whitesmoke;
+  color: darkgray;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 ul li.last.leaf a:link, a:visited {
-  color: whitesmoke;
+  color: darkgray;
   text-decoration: none;
   text-transform: uppercase;
 }
