@@ -49,7 +49,7 @@ main .aurora-section-second {
     clear: both;
   }
   @include breakpoint($desktop) {
-    @include grid-span(6, 2, $output-style: 'float');
+    @include grid-span(7, 2, $output-style: 'float');
     clear: both;
   }
 
@@ -64,6 +64,6 @@ main .aurora-section-third {
   }
 
   @include breakpoint($desktop) {
-    @include grid-span(3, 9);
+    @include grid-span(4, 9);
   }
 }
