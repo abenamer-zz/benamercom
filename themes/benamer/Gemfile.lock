@@ -18,6 +18,8 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     ffi (1.9.10)
+    font-awesome-sass (4.3.2.1)
+      sass (~> 3.2)
     multi_json (1.11.2)
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
@@ -37,6 +39,7 @@ PLATFORMS
 DEPENDENCIES
   breakpoint (~> 2.4)
   compass (~> 1.0)
+  font-awesome-sass (~> 4.3.0)
   sass (~> 3.3)
   singularitygs (~> 1.4)
   toolkit (~> 2.0)
