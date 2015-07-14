@@ -2627,55 +2627,56 @@ main .aurora-section-first {
 }
 
 main .aurora-section-second {
-  width: 63.63636%;
+  width: 58.33333%;
   float: left;
   margin-right: -100%;
-  margin-left: 0;
+  margin-left: 4.16667%;
   clear: none;
   clear: both;
 }
 @media (min-width: 600px) {
   main .aurora-section-second {
-    width: 65.21739%;
+    width: 62.5%;
     float: left;
     margin-right: -100%;
-    margin-left: 0;
+    margin-left: 2.08333%;
     clear: none;
     clear: both;
   }
 }
 @media (min-width: 1024px) {
   main .aurora-section-second {
-    width: 57.44681%;
+    width: 56.25%;
     clear: right;
     float: left;
-    margin-right: 2.12766%;
+    margin-left: 1.04167%;
+    margin-right: 1.04167%;
     clear: both;
   }
 }
 
 main .aurora-section-third {
-  width: 27.27273%;
+  width: 25%;
   float: right;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: 4.16667%;
   clear: none;
 }
 @media (min-width: 600px) {
   main .aurora-section-third {
-    width: 30.43478%;
+    width: 29.16667%;
     float: right;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 2.08333%;
     clear: none;
   }
 }
 @media (min-width: 1024px) {
   main .aurora-section-third {
-    width: 31.91489%;
+    width: 31.25%;
     float: right;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 1.04167%;
     clear: none;
   }
 }
@@ -2772,10 +2773,10 @@ ul li.last.leaf {
 }
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-system-main-menu {
-    width: 100%;
+    width: 95.83333%;
     float: right;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 2.08333%;
     clear: none;
     margin-top: -3.25em;
     margin-left: -3em;
@@ -2784,10 +2785,10 @@ ul li.last.leaf {
 }
 @media (min-width: 1024px) {
   .panel-pane.pane-block.pane-system-main-menu {
-    width: 100%;
+    width: 97.91667%;
     float: right;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 1.04167%;
     clear: none;
     clear: both;
     font-size: 1.15em;
@@ -2832,19 +2833,19 @@ h2 {
 }
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-block-2 {
-    width: 100%;
+    width: 95.83333%;
     float: right;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 2.08333%;
     clear: none;
   }
 }
 @media (min-width: 1024px) {
   .panel-pane.pane-block.pane-block-2 {
-    width: 100%;
+    width: 97.91667%;
     float: right;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 1.04167%;
     clear: none;
     color: darkgrey;
     margin-top: -5em;

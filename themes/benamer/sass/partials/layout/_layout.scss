@@ -42,6 +42,7 @@ main .aurora-section-first {
 }
 
 main .aurora-section-second {
+  @include add-gutter-style('split');
   @include grid-span(2, 1);
   clear: both;
   @include breakpoint($tablet) {
