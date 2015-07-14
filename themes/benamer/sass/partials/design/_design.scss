@@ -135,7 +135,6 @@ h2{
 
 .panel-pane.pane-block.pane-block-2 {
   // mobile first
-  color: darkgrey;
   margin-top: -5em;
   margin-right: 1em;
 
@@ -146,7 +145,6 @@ h2{
 
   @include breakpoint($desktop) {
     @include grid-span(12, 1);
-    color: darkgrey;
     margin-top: -5em;
     margin-right: 1.75em;
   }

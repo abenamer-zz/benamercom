@@ -2829,7 +2829,6 @@ h2 {
 }
 
 .panel-pane.pane-block.pane-block-2 {
-  color: darkgrey;
   margin-top: -5em;
   margin-right: 1em;
 }
@@ -2849,7 +2848,6 @@ h2 {
     margin-left: 0;
     margin-right: 1.04167%;
     clear: none;
-    color: darkgrey;
     margin-top: -5em;
     margin-right: 1.75em;
   }
