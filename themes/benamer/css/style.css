@@ -2683,8 +2683,6 @@ main .aurora-section-third {
 
 .aurora-section-first {
   background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/benamercom-header.jpg");
-  text-align: right;
-  color: white;
 }
 
 div .pane-blockify-blockify-site-slogan {
