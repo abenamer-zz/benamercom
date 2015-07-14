@@ -2619,5 +2619,8 @@ h2 {
     margin-left: 0;
     margin-right: 0;
     clear: none;
+    color: darkgrey;
+    margin-top: -5em;
+    margin-right: 1.75em;
   }
 }
