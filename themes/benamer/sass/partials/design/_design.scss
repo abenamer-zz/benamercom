@@ -130,3 +130,19 @@ h2{
 }
 
 
+.panel-pane.pane-block.pane-block-2 {
+  // mobile first
+  color: darkgrey;
+  margin-top: -5em;
+  margin-right: 1em;
+
+  @include breakpoint($tablet) {
+    @include grid-span(6, 1);
+
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1);
+
+  }
+}
