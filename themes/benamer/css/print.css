@@ -24,8 +24,8 @@ video {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(font-path("font-awesome/fontawesome-webfont.eot"));
-  src: url(font-path("font-awesome/fontawesome-webfont.eot?#iefix")) format("embedded-opentype"), url(font-path("font-awesome/fontawesome-webfont.woff2")) format("woff2"), url(font-path("font-awesome/fontawesome-webfont.woff")) format("woff"), url(font-path("font-awesome/fontawesome-webfont.ttf")) format("truetype"), url(font-path("font-awesome/fontawesome-webfont.svg#fontawesomeregular")) format("svg");
+  src: url(../fonts/font-awesome/fontawesome-webfont.eot?1436841990);
+  src: url(../fonts/font-awesome/fontawesome-webfont.eot?&1436841990#iefix) format("embedded-opentype"), url(../fonts/font-awesome/fontawesome-webfont.woff2?1436841990) format("woff2"), url(../fonts/font-awesome/fontawesome-webfont.woff?1436841990) format("woff"), url(../fonts/font-awesome/fontawesome-webfont.ttf?1436841990) format("truetype"), url(../fonts/font-awesome/fontawesome-webfont.svg?1436841990#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
