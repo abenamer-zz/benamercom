@@ -19,7 +19,6 @@ div .pane-blockify-blockify-site-slogan {
 }
 
 h1#site-title {
-
   // mobile first
   font-family: 'Lobster Two';
   font-weight: 700;
@@ -28,11 +27,7 @@ h1#site-title {
   margin-right: 1em;
   font-size: 2em;
 
-  @include breakpoint($tablet-p) {
-    text-align: center;
-    font-size: 3em;
-  }
-  @include breakpoint($tablet-l) {
+  @include breakpoint($tablet) {
     text-align: center;
     font-size: 3em;
   }
@@ -46,14 +41,11 @@ ul li.first.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
   font-size: .35em;
-  @include breakpoint($tablet-p) {
-    font-size: .85em;
-  }
-  @include breakpoint($tablet-l) {
-    font-size: .85em;
+  @include breakpoint($tablet) {
+    font-size: 1em;
   }
   @include breakpoint($desktop) {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -64,14 +56,11 @@ ul li.leaf {
   padding-right: 15px;
   padding-left: 15px;
 
-  @include breakpoint($tablet-p) {
-    font-size: .85em;
-  }
-  @include breakpoint($tablet-l) {
-    font-size: .85em;
+  @include breakpoint($tablet) {
+    font-size: 1em;
   }
   @include breakpoint($desktop) {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
 
@@ -79,10 +68,7 @@ ul li.last.leaf {
   float: left;
   border-right: 0px;
   font-size: .35em;
-  @include breakpoint($tablet-p) {
-    font-size: .85em;
-  }
-  @include breakpoint($tablet-l) {
+  @include breakpoint($tablet) {
     font-size: .85em;
   }
   @include breakpoint($desktop) {
@@ -95,18 +81,13 @@ ul li.last.leaf {
   margin-top: -2em;
   margin-left: -2em;
 
-  @include breakpoint($tablet-p) {
+  @include breakpoint($tablet) {
     @include grid-span(6, 1);
     margin-top: -3.25em;
     margin-left: -3em;
     font-size: 1.15em;
   }
-  @include breakpoint($tablet-l) {
-    @include grid-span(12, 1);
-    width: 80%;
-    margin-top: -4.5em;
-    font-size: 1.15em;
-  }
+
   @include breakpoint($desktop) {
     @include grid-span(12, 1);
     clear: both;
