@@ -2691,7 +2691,7 @@ div .pane-blockify-blockify-site-slogan {
   margin-top: 18px;
 }
 
-h1#site-title a:link, a:visited {
+h1#site-title a {
   font-family: 'Lobster Two';
   font-weight: 700;
   text-align: right;
@@ -2702,17 +2702,17 @@ h1#site-title a:link, a:visited {
   color: white;
 }
 @media (min-width: 600px) {
-  h1#site-title a:link, a:visited {
+  h1#site-title a {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     text-decoration: none;
     color: white;
   }
 }
 @media (min-width: 1024px) {
-  h1#site-title a:link, a:visited {
+  h1#site-title a {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: .125em;
     text-decoration: none;
     color: white;
