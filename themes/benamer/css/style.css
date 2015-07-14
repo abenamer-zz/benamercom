@@ -2691,30 +2691,28 @@ div .pane-blockify-blockify-site-slogan {
   margin-top: 18px;
 }
 
-h1#site-title {
+h1#site-title a:link, a:visited {
   font-family: 'Lobster Two';
   font-weight: 700;
   text-align: right;
   margin-top: -.125em;
   margin-right: 1em;
   font-size: 2em;
+  text-decoration: none;
+  color: white;
 }
 @media (min-width: 600px) {
-  h1#site-title {
+  h1#site-title a:link, a:visited {
     text-align: center;
     font-size: 3em;
   }
 }
 @media (min-width: 1024px) {
-  h1#site-title {
+  h1#site-title a:link, a:visited {
     text-align: center;
     font-size: 3em;
+    letter-spacing: .125em;
   }
-}
-
-h1#site-title a:link, a:visited {
-  text-decoration: none;
-  color: white;
 }
 
 ul li.first.leaf {
