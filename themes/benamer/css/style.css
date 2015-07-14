@@ -2705,6 +2705,8 @@ h1#site-title a:link, a:visited {
   h1#site-title a:link, a:visited {
     text-align: center;
     font-size: 3em;
+    text-decoration: none;
+    color: white;
   }
 }
 @media (min-width: 1024px) {
@@ -2712,6 +2714,8 @@ h1#site-title a:link, a:visited {
     text-align: center;
     font-size: 3em;
     letter-spacing: .125em;
+    text-decoration: none;
+    color: white;
   }
 }
 
