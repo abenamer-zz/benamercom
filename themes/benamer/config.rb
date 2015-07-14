@@ -4,6 +4,7 @@ require 'breakpoint'
 require 'singularitygs'
 require 'toolkit'
 require 'font-awesome-sass'
+require 'compass-normalize'
 
 # Set this to the root of your project when deployed:
 http_path = "sites/all/themes/benamer"

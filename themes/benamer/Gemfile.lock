@@ -17,6 +17,8 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
+    compass-normalize (1.5)
+      compass (>= 0.12.0)
     ffi (1.9.10)
     font-awesome-sass (4.3.2.1)
       sass (~> 3.2)
@@ -39,6 +41,7 @@ PLATFORMS
 DEPENDENCIES
   breakpoint (~> 2.4)
   compass (~> 1.0)
+  compass-normalize (~> 1.5)
   font-awesome-sass (~> 4.3.0)
   sass (~> 3.3)
   singularitygs (~> 1.4)
