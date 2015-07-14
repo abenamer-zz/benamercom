@@ -28,13 +28,12 @@ h1#site-title a{
   color: white;
 
   @include breakpoint($tablet) {
-    text-align: center;
+
     font-size: 2em;
     text-decoration: none;
     color: white;
   }
   @include breakpoint($desktop) {
-    text-align: center;
     font-size: 2em;
     letter-spacing: .125em;
     text-decoration: none;
@@ -129,7 +128,9 @@ ul li.last.leaf a:link, a:visited {
 h2{
   font-family: 'Open Sans'; font-weight: 800;
 }
-
+.panel-pane.pane-block.pane-block-1 {
+  text-align: center;
+}
 
 .panel-pane.pane-block.pane-block-2 {
   // mobile first
@@ -145,5 +146,6 @@ h2{
     @include grid-span(12, 1);
     margin-top: -5em;
     margin-right: 1.75em;
+    text-align: center;
   }
 }

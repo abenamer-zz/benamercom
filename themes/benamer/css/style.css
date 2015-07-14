@@ -2701,7 +2701,6 @@ h1#site-title a {
 }
 @media (min-width: 600px) {
   h1#site-title a {
-    text-align: center;
     font-size: 2em;
     text-decoration: none;
     color: white;
@@ -2709,7 +2708,6 @@ h1#site-title a {
 }
 @media (min-width: 1024px) {
   h1#site-title a {
-    text-align: center;
     font-size: 2em;
     letter-spacing: .125em;
     text-decoration: none;
@@ -2826,6 +2824,10 @@ h2 {
   font-weight: 800;
 }
 
+.panel-pane.pane-block.pane-block-1 {
+  text-align: center;
+}
+
 .panel-pane.pane-block.pane-block-2 {
   margin-top: -5em;
   margin-right: 1em;
@@ -2848,5 +2850,6 @@ h2 {
     clear: none;
     margin-top: -5em;
     margin-right: 1.75em;
+    text-align: center;
   }
 }
