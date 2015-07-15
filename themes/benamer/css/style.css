@@ -2624,6 +2624,8 @@ main .aurora-section-first {
 
 main .aurora-section-second {
   clear: both;
+  margin: auto;
+  width: 90%;
 }
 @media (min-width: 600px) {
   main .aurora-section-second {
@@ -2646,6 +2648,10 @@ main .aurora-section-second {
   }
 }
 
+main .aurora-section-third {
+  margin: auto;
+  width: 90%;
+}
 @media (min-width: 600px) {
   main .aurora-section-third {
     width: 29.16667%;
@@ -2834,6 +2840,13 @@ ul li.leaf {
 @media (min-width: 600px) {
   ul li.leaf {
     font-size: .8em;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+@media (min-width: 600px) {
+  ul li.leaf {
+    font-size: .8em;
   }
 }
 @media (min-width: 1024px) {
@@ -2886,4 +2899,8 @@ ul li.last.leaf a:link, a:visited {
 h2 {
   font-family: 'Open Sans';
   font-weight: 800;
+}
+
+.panel-pane.pane-block.pane-block-2 {
+  color: darkgray;
 }

@@ -43,6 +43,8 @@ main .aurora-section-first {
 main .aurora-section-second {
   @include add-gutter-style('split');
   clear: both;
+  margin: auto;
+  width: 90%;
   @include breakpoint($tablet) {
     @include grid-span(4, 1);
     clear: both;
@@ -55,7 +57,8 @@ main .aurora-section-second {
 }
 
 main .aurora-section-third {
-
+  margin: auto;
+  width: 90%;
   @include breakpoint($tablet) {
     @include grid-span(2, 5);
   }
