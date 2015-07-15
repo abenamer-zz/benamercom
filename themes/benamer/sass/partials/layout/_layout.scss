@@ -25,7 +25,7 @@ body.front  .aurora-sample-layout {
   @include clearfix;
 }
 
-main .aurora-section-first {
+body.front main .aurora-section-first {
   height: 180px;
   clear: both;
   margin-top: -1.5em;
@@ -45,7 +45,7 @@ main .aurora-section-first {
   }
 }
 
-main .aurora-section-second {
+body.front main .aurora-section-second {
   @include add-gutter-style('split');
   clear: both;
   margin: auto;
@@ -61,7 +61,7 @@ main .aurora-section-second {
 
 }
 
-main .aurora-section-third {
+body.front main .aurora-section-third {
   margin: auto;
   width: 90%;
   @include breakpoint($tablet) {
@@ -75,10 +75,6 @@ main .aurora-section-third {
 
 // article pages layout styles
 // body.page-node
-
-body.page-node  .aurora-sample-layout {
-  @include clearfix;
-}
 
 body.page-node .aurora-sample-layout {
   @include clearfix;
@@ -128,10 +124,10 @@ body.page-node main .aurora-section-third {
 
 // search page layout
 
-body.page-search  .aurora-sample-layout {
+body.page-search main .aurora-sample-layout {
   @include clearfix;
 }
-body.page-search .aurora-sample-layout {
+body.page-search main .aurora-sample-layout {
   @include clearfix;
 }
 
