@@ -2609,6 +2609,7 @@ main .aurora-section-first {
     clear: none;
     clear: both;
     height: 180px;
+    margin-top: inherit;
   }
 }
 @media (min-width: 1024px) {
@@ -2619,6 +2620,7 @@ main .aurora-section-first {
     margin-right: 0;
     height: 360px;
     clear: both;
+    margin-top: inherit;
   }
 }
 
