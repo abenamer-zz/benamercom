@@ -103,15 +103,12 @@ body.page-node main .aurora-section-first {
 body.page-node main .aurora-section-second {
   @include add-gutter-style('split');
   clear: both;
-  margin: auto;
-  width: 90%;
   @include breakpoint($tablet) {
     @include grid-span(6, 1);
     clear: both;
   }
   @include breakpoint($desktop) {
     @include grid-span(12, 1, $output-style: 'float');
-    width:90%;
     clear: both;
   }
 

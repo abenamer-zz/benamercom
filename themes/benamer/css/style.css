@@ -2711,8 +2711,6 @@ body.page-node main .aurora-section-first {
 
 body.page-node main .aurora-section-second {
   clear: both;
-  margin: auto;
-  width: 90%;
 }
 @media (min-width: 600px) {
   body.page-node main .aurora-section-second {
@@ -2731,7 +2729,6 @@ body.page-node main .aurora-section-second {
     float: right;
     margin-left: 0;
     margin-right: 1.04167%;
-    width: 90%;
     clear: both;
   }
 }
