@@ -47,7 +47,7 @@ ul li.first.leaf {
   border-right: 1px solid #e2e2e2;
   font-size: .35em;
   @include breakpoint($tablet) {
-    font-size: 1em;
+    font-size: .8em;
   }
   @include breakpoint($desktop) {
     font-size: .8em;
@@ -62,7 +62,7 @@ ul li.leaf {
   padding-left: 15px;
 
   @include breakpoint($tablet) {
-    font-size: 1em;
+    font-size: .8em;
   }
   @include breakpoint($desktop) {
     font-size: .8em;
@@ -74,7 +74,7 @@ ul li.last.leaf {
   border-right: 0px;
   font-size: .35em;
   @include breakpoint($tablet) {
-    font-size: 1em;
+    font-size: .8em;
   }
   @include breakpoint($desktop) {
     font-size: .8em;

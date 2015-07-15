@@ -2687,7 +2687,7 @@ main .aurora-section-third {
 }
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-system-main-menu {
-    width: 45.83333%;
+    width: 62.5%;
     float: left;
     margin-right: -100%;
     margin-left: 2.08333%;
@@ -2713,9 +2713,10 @@ main .aurora-section-third {
     width: 12.5%;
     float: left;
     margin-right: -100%;
-    margin-left: 52.08333%;
+    margin-left: 68.75%;
     clear: none;
     text-align: center;
+    margin-top: -1.5em;
   }
 }
 @media (min-width: 1024px) {
@@ -2736,7 +2737,7 @@ main .aurora-section-third {
 }
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-block-2 {
-    width: 29.16667%;
+    width: 12.5%;
     float: right;
     margin-left: 0;
     margin-right: 2.08333%;
@@ -2797,7 +2798,7 @@ ul li.first.leaf {
 }
 @media (min-width: 600px) {
   ul li.first.leaf {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 @media (min-width: 1024px) {
@@ -2815,7 +2816,7 @@ ul li.leaf {
 }
 @media (min-width: 600px) {
   ul li.leaf {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 @media (min-width: 1024px) {
@@ -2831,7 +2832,7 @@ ul li.last.leaf {
 }
 @media (min-width: 600px) {
   ul li.last.leaf {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 @media (min-width: 1024px) {
