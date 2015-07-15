@@ -21,7 +21,7 @@ $desktop: 1024px;
 
 // front page styles
 
-.aurora-sample-layout {
+body.front  .aurora-sample-layout {
   @include clearfix;
 }
 
@@ -76,6 +76,10 @@ main .aurora-section-third {
 // article pages layout styles
 // body.page-node
 
+body.page-node  .aurora-sample-layout {
+  @include clearfix;
+}
+
 body.page-node .aurora-sample-layout {
   @include clearfix;
 }
@@ -124,6 +128,9 @@ body.page-node main .aurora-section-third {
 
 // search page layout
 
+body.page-search  .aurora-sample-layout {
+  @include clearfix;
+}
 body.page-search .aurora-sample-layout {
   @include clearfix;
 }

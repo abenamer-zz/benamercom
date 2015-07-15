@@ -2589,7 +2589,7 @@ th {
   padding: 0;
 }
 
-.aurora-sample-layout:after {
+body.front .aurora-sample-layout:after {
   content: "";
   display: table;
   clear: both;
@@ -2679,6 +2679,12 @@ body.page-node .aurora-sample-layout:after {
   clear: both;
 }
 
+body.page-node .aurora-sample-layout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 body.page-node main .aurora-section-first {
   height: 180px;
   clear: both;
@@ -2732,6 +2738,12 @@ body.page-node main .aurora-section-second {
 
 body.page-node main .aurora-section-third {
   display: none;
+}
+
+body.page-search .aurora-sample-layout:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 body.page-search .aurora-sample-layout:after {
