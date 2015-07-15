@@ -58,19 +58,18 @@ ul li.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
   font-size: .8em;
-  padding-right: 15px;
-  padding-left: 15px;
-  @include breakpoint($tablet) {
-    font-size: .8em;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
+  padding-right: 10px;
+  padding-left: 10px;
 
   @include breakpoint($tablet) {
     font-size: .8em;
+    padding-right: 15px;
+    padding-left: 15px;
   }
   @include breakpoint($desktop) {
     font-size: .8em;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
