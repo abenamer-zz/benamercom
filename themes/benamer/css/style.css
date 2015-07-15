@@ -2824,6 +2824,17 @@ h2 {
   }
 }
 
+@media (min-width: 600px) {
+  .panel-pane.pane-block.pane-block-1 {
+    width: 12.5%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 52.08333%;
+    clear: none;
+    text-align: center;
+    margin-top: -2em;
+  }
+}
 @media (min-width: 1024px) {
   .panel-pane.pane-block.pane-block-1 {
     width: 6.25%;

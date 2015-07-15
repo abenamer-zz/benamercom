@@ -134,6 +134,11 @@ h2{
 
 // front page title
 .panel-pane.pane-block.pane-block-1 {
+  @include breakpoint($tablet) {
+    @include grid-span(1, 4);
+    text-align: center;
+    margin-top: -2em;
+  }
   @include breakpoint($desktop) {
     @include grid-span(1, 4);
     text-align: center;
