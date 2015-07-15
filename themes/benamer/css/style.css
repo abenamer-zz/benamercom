@@ -2754,11 +2754,6 @@ main .aurora-section-third {
 }
 
 .panel-pane.pane-block.pane-menu-menu-main-menu-tablet {
-  width: 29.62963%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 1.85185%;
-  clear: none;
   margin-top: -4em;
   margin-left: -3em;
   text-align: left;
@@ -2817,7 +2812,7 @@ h1#site-title a {
 ul li.first.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
-  font-size: 1em;
+  font-size: .8em;
 }
 @media (min-width: 600px) {
   ul li.first.leaf {

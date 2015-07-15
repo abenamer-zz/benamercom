@@ -45,7 +45,7 @@ h1#site-title a{
 ul li.first.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
-  font-size: 1em;
+  font-size: .8em;
   @include breakpoint($tablet) {
     font-size: .8em;
   }
