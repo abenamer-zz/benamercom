@@ -2899,6 +2899,18 @@ h2 {
   color: darkgrey;
 }
 
-:hover {
+.panel-pane.pane-block.pane-menu-menu-main-menu-tablet a:hover {
+  color: white;
+}
+
+.panel-pane.pane-block.pane-block-1 a:hover {
+  color: white;
+}
+
+.panel-pane.pane-block.pane-block-2 a:hover {
+  color: white;
+}
+
+.panel-pane.pane-block.pane-system-main-menu a:hover {
   color: white;
 }
