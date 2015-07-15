@@ -2851,10 +2851,10 @@ h2 {
 }
 @media (min-width: 1024px) {
   .panel-pane.pane-block.pane-block-2 {
-    width: 39.58333%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 67.70833%;
+    width: 31.25%;
+    float: right;
+    margin-left: 0;
+    margin-right: 1.04167%;
     clear: none;
     margin-top: -3.15em;
     margin-right: 1.75em;
