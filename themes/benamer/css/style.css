@@ -2895,6 +2895,10 @@ h2 {
   font-weight: 800;
 }
 
-.panel-pane.pane-block.pane-block-2 {
-  color: darkgray;
+.panel-pane.pane-block.pane-block-2 a {
+  color: darkgrey;
+}
+
+:hover {
+  color: white;
 }
