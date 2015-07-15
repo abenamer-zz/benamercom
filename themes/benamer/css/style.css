@@ -2795,18 +2795,6 @@ h2 {
   font-weight: 800;
 }
 
-@media (min-width: 1024px) {
-  .panel-pane.pane-block.pane-block-1 {
-    width: 22.91667%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 51.04167%;
-    clear: none;
-    text-align: center;
-    margin-top: -2em;
-  }
-}
-
 .panel-pane.pane-block.pane-system-main-menu {
   margin-top: -2em;
   margin-left: -2em;
@@ -2825,7 +2813,7 @@ h2 {
 }
 @media (min-width: 1024px) {
   .panel-pane.pane-block.pane-system-main-menu {
-    width: 47.91667%;
+    width: 31.25%;
     float: left;
     margin-right: -100%;
     margin-left: 1.04167%;
@@ -2836,16 +2824,28 @@ h2 {
   }
 }
 
+@media (min-width: 1024px) {
+  .panel-pane.pane-block.pane-block-1 {
+    width: 31.25%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 34.375%;
+    clear: none;
+    text-align: center;
+    margin-top: -2em;
+  }
+}
+
 .panel-pane.pane-block.pane-block-2 {
   margin-top: -5em;
   margin-right: 1em;
 }
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-block-2 {
-    width: 95.83333%;
-    float: right;
-    margin-left: 0;
-    margin-right: 2.08333%;
+    width: 145.83333%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 52.08333%;
     clear: none;
   }
 }
