@@ -78,9 +78,11 @@ main .aurora-section-third {
 
   @include breakpoint($tablet) {
     display:none;
+    @include grid-span(2, 1);
   }
 
   @include breakpoint($desktop) {
+    display: inherit;
     @include grid-span(4, 1);
     clear: both;
     margin-top: -3.8em;
@@ -90,7 +92,7 @@ main .aurora-section-third {
 // front page title
 .panel-pane.pane-block.pane-block-1 {
   @include breakpoint($tablet) {
-    @include grid-span(1, 4);
+    @include grid-span(2, 3);
     text-align: center;
     margin-top: -1.5em;
   }
@@ -108,9 +110,8 @@ main .aurora-section-third {
   margin-right: 1em;
 
   @include breakpoint($tablet) {
-    @include grid-span(1, 6);
-    margin-top: 1em;
-    margin-right:1em;
+    @include grid-span(1, 5);
+    margin-top: -3.25em;
     text-align: right;
   }
 
