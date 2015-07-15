@@ -2596,11 +2596,6 @@ th {
 }
 
 main .aurora-section-first {
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
   height: 180px;
   clear: both;
 }
@@ -2627,11 +2622,6 @@ main .aurora-section-first {
 }
 
 main .aurora-section-second {
-  width: 58.33333%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 4.16667%;
-  clear: none;
   clear: both;
 }
 @media (min-width: 600px) {
@@ -2655,13 +2645,6 @@ main .aurora-section-second {
   }
 }
 
-main .aurora-section-third {
-  width: 25%;
-  float: right;
-  margin-left: 0;
-  margin-right: 4.16667%;
-  clear: none;
-}
 @media (min-width: 600px) {
   main .aurora-section-third {
     width: 29.16667%;
