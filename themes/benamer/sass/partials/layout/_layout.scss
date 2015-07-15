@@ -84,6 +84,7 @@ body.page-node main .aurora-section-first {
   height: 180px;
   clear: both;
   margin-top: -1.5em;
+
   @include breakpoint($tablet) {
     @include grid-span(6, 1);
     clear: both;
@@ -108,8 +109,10 @@ body.page-node main .aurora-section-second {
     clear: both;
   }
   @include breakpoint($desktop) {
-    @include grid-span(12, 1, $output-style: 'float');
+    // @include grid-span(12, 1, $output-style: 'float');
+    height: 360px;
     clear: both;
+    margin-top: inherit;
   }
 
 }
@@ -119,6 +122,52 @@ body.page-node main .aurora-section-third {
 }
 
 
+// search page layout
+
+body.page-search .aurora-sample-layout {
+  @include clearfix;
+}
+
+body.page-search main .aurora-section-first {
+  height: 180px;
+  clear: both;
+  margin-top: -1.5em;
+
+  @include breakpoint($tablet) {
+    @include grid-span(6, 1);
+    clear: both;
+    height: 180px;
+    margin-top: inherit;
+
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1, $output-style: 'float');
+    height: 360px;
+    clear: both;
+    margin-top: inherit;
+  }
+}
+
+body.page-search main .aurora-section-second {
+  @include add-gutter-style('split');
+  clear: both;
+  @include breakpoint($tablet) {
+    @include grid-span(6, 1);
+    clear: both;
+  }
+  @include breakpoint($desktop) {
+    // @include grid-span(12, 1, $output-style: 'float');
+    height: 360px;
+    clear: both;
+    margin-top: inherit;
+  }
+
+}
+
+body.page-search main .aurora-section-third {
+  display:none;
+}
 
 // header
 // global
