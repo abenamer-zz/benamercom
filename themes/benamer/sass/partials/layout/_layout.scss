@@ -86,7 +86,7 @@ main .aurora-section-third {
   @include breakpoint($desktop) {
     @include grid-span(4, 1);
     clear: both;
-    margin-top: -3.55em;
+    margin-top: -3.8em;
   }
 }
 
@@ -95,12 +95,11 @@ main .aurora-section-third {
   @include breakpoint($tablet) {
     @include grid-span(1, 4);
     text-align: center;
-    margin-top: -2em;
   }
   @include breakpoint($desktop) {
     @include grid-span(4, 5);
     text-align: center;
-    margin-top: -2em;
+    margin-top: -1.5em;
   }
 }
 
