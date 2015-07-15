@@ -146,8 +146,9 @@ body.page-search main .aurora-section-first {
   @include breakpoint($desktop) {
     @include grid-span(12, 1, $output-style: 'float');
     height: 360px;
-    clear: both;
     margin-top: inherit;
+    float:left;
+    width:100%;
   }
 }
 

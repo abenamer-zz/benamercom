@@ -2777,8 +2777,9 @@ body.page-search main .aurora-section-first {
     margin-left: 0;
     margin-right: 1.04167%;
     height: 360px;
-    clear: both;
     margin-top: inherit;
+    float: left;
+    width: 100%;
   }
 }
 
