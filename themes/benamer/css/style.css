@@ -2598,6 +2598,7 @@ th {
 main .aurora-section-first {
   height: 180px;
   clear: both;
+  margin-top: -1.5em;
 }
 @media (min-width: 600px) {
   main .aurora-section-first {
@@ -2717,6 +2718,11 @@ main .aurora-section-second {
   }
 }
 
+.panel-pane.pane-block.pane-block-2 {
+  text-align: right;
+  margin-right: 1em;
+  margin-top: -3.25em;
+}
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-block-2 {
     width: 12.5%;
@@ -2742,11 +2748,14 @@ main .aurora-section-second {
 }
 
 .panel-pane.pane-block.pane-menu-menu-main-menu-tablet {
-  width: 25%;
+  width: 29.62963%;
   float: left;
   margin-right: -100%;
-  margin-left: 4.16667%;
+  margin-left: 1.85185%;
   clear: none;
+  margin-top: -4em;
+  margin-left: -3em;
+  text-align: left;
 }
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-menu-menu-main-menu-tablet {
