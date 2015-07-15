@@ -134,6 +134,7 @@ h2{
   color:white;
 }
 
+// search form styles
 div.form-type-searchfield input[type="search"] {
   width: 70%;
   height: 4em;
@@ -142,4 +143,8 @@ div.form-type-searchfield input[type="search"] {
 .form-item.form-type-searchfield.form-item-search-block-form {
   margin-left: auto;
   margin-right: auto;
+}
+
+.panel-pane.pane-block.pane-search-form {
+  margin-top: 2em;
 }

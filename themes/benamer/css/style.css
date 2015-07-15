@@ -3046,3 +3046,7 @@ div.form-type-searchfield input[type="search"] {
   margin-left: auto;
   margin-right: auto;
 }
+
+.panel-pane.pane-block.pane-search-form {
+  margin-top: 2em;
+}
