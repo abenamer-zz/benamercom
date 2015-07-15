@@ -2682,8 +2682,7 @@ main .aurora-section-third {
 }
 
 .panel-pane.pane-block.pane-system-main-menu {
-  margin-top: -2em;
-  margin-left: -2em;
+  display: none;
 }
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-system-main-menu {
@@ -2708,6 +2707,14 @@ main .aurora-section-third {
   }
 }
 
+.panel-pane.pane-block.pane-block-1 {
+  text-align: center;
+  width: 25%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 37.5%;
+  clear: none;
+}
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-block-1 {
     width: 29.16667%;
@@ -2732,8 +2739,11 @@ main .aurora-section-third {
 }
 
 .panel-pane.pane-block.pane-block-2 {
-  margin-top: -5em;
-  margin-right: 1em;
+  width: 25%;
+  float: right;
+  margin-left: 0;
+  margin-right: 4.16667%;
+  clear: none;
 }
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-block-2 {
@@ -2759,6 +2769,13 @@ main .aurora-section-third {
   }
 }
 
+.panel-pane.pane-block.pane-menu-menu-main-menu-tablet {
+  width: 25%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 4.16667%;
+  clear: none;
+}
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-menu-menu-main-menu-tablet {
     width: 62.5%;
@@ -2813,7 +2830,7 @@ h1#site-title a {
 ul li.first.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
-  font-size: .35em;
+  font-size: 1em;
 }
 @media (min-width: 600px) {
   ul li.first.leaf {
@@ -2829,7 +2846,7 @@ ul li.first.leaf {
 ul li.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
-  font-size: .35em;
+  font-size: 1em;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -2847,7 +2864,7 @@ ul li.leaf {
 ul li.last.leaf {
   float: left;
   border-right: 0px;
-  font-size: .35em;
+  font-size: 1em;
 }
 @media (min-width: 600px) {
   ul li.last.leaf {

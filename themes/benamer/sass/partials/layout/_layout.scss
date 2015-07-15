@@ -73,9 +73,7 @@ main .aurora-section-third {
 // front page menu
 .panel-pane.pane-block.pane-system-main-menu {
   // mobile first
-  margin-top: -2em;
-  margin-left: -2em;
-
+  display:none;
   @include breakpoint($tablet) {
     display:none;
     @include grid-span(2, 1);
@@ -91,6 +89,8 @@ main .aurora-section-third {
 
 // front page title
 .panel-pane.pane-block.pane-block-1 {
+  text-align: center;
+  @include grid-span(1, 2);
   @include breakpoint($tablet) {
     @include grid-span(2, 3);
     text-align: center;
@@ -106,8 +106,7 @@ main .aurora-section-third {
 // search icon
 .panel-pane.pane-block.pane-block-2 {
   // mobile first
-  margin-top: -5em;
-  margin-right: 1em;
+  @include grid-span(1, 3);
 
   @include breakpoint($tablet) {
     @include grid-span(1, 5);
@@ -124,6 +123,8 @@ main .aurora-section-third {
 }
 
 .panel-pane.pane-block.pane-menu-menu-main-menu-tablet {
+  @include grid-span(1, 1);
+
   @include breakpoint($tablet) {
     @include grid-span(4, 1);
     clear: both;
