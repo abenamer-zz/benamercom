@@ -112,7 +112,7 @@ main .aurora-section-third {
   @include breakpoint($tablet) {
     @include grid-span(1, 6);
     margin-top: 1em;
-    margin-right:0em;
+    margin-right:1em;
     text-align: right;
   }
 
