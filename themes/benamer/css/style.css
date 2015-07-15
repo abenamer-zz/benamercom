@@ -2693,6 +2693,7 @@ main .aurora-section-third {
     margin-left: 2.08333%;
     clear: none;
     margin-left: -2em;
+    margin-top: 0em;
   }
 }
 @media (min-width: 1024px) {
