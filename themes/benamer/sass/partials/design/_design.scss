@@ -50,7 +50,7 @@ ul li.first.leaf {
     font-size: 1em;
   }
   @include breakpoint($desktop) {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 
@@ -65,7 +65,7 @@ ul li.leaf {
     font-size: 1em;
   }
   @include breakpoint($desktop) {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 
@@ -77,7 +77,7 @@ ul li.last.leaf {
     font-size: 1em;
   }
   @include breakpoint($desktop) {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 
@@ -128,7 +128,7 @@ h2{
     @include grid-span(4, 1);
     clear: both;
     font-size: 1.15em;
-    margin-top: -3.65em;
+    margin-top: -3.55em;
   }
 }
 

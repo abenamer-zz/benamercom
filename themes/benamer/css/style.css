@@ -2727,7 +2727,7 @@ ul li.first.leaf {
 }
 @media (min-width: 1024px) {
   ul li.first.leaf {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 
@@ -2745,7 +2745,7 @@ ul li.leaf {
 }
 @media (min-width: 1024px) {
   ul li.leaf {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 
@@ -2761,7 +2761,7 @@ ul li.last.leaf {
 }
 @media (min-width: 1024px) {
   ul li.last.leaf {
-    font-size: 1em;
+    font-size: .8em;
   }
 }
 
@@ -2820,7 +2820,7 @@ h2 {
     clear: none;
     clear: both;
     font-size: 1.15em;
-    margin-top: -3.65em;
+    margin-top: -3.55em;
   }
 }
 
