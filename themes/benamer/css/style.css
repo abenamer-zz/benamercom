@@ -2738,11 +2738,13 @@ main .aurora-section-third {
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-block-2 {
     width: 12.5%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 68.75%;
+    float: right;
+    margin-left: 0;
+    margin-right: 2.08333%;
     clear: none;
-    margin-top: -.7em;
+    margin-top: 1em;
+    margin-right: 0em;
+    text-align: right;
   }
 }
 @media (min-width: 1024px) {
