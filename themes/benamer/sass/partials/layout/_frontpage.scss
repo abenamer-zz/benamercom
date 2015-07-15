@@ -1,0 +1,53 @@
+// front page styles
+
+body.front  .aurora-frontpage-layout
+  @include clearfix;
+}
+
+body.front main section.aurora-frontpage-section.aurora-section-first {
+  height: 180px;
+  clear: both;
+  margin-top: -1.5em;
+  @include breakpoint($tablet) {
+    @include grid-span(6, 1);
+    clear: both;
+    height: 180px;
+    margin-top: inherit;
+
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1, $output-style: 'float');
+    height: 360px;
+    clear: both;
+    margin-top: inherit;
+  }
+}
+
+body.front main section.aurora-frontpage-section.aurora-section-second {
+  @include add-gutter-style('split');
+  clear: both;
+  margin: auto;
+  width: 90%;
+  @include breakpoint($tablet) {
+    @include grid-span(4, 1);
+    clear: both;
+  }
+  @include breakpoint($desktop) {
+    @include grid-span(7, 2, $output-style: 'float');
+    clear: both;
+  }
+
+}
+
+body.front main section.aurora-frontpage-section.aurora-section-third {
+  margin: auto;
+  width: 90%;
+  @include breakpoint($tablet) {
+    @include grid-span(2, 5);
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(4, 9);
+  }
+}
