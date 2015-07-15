@@ -77,9 +77,7 @@ main .aurora-section-third {
   margin-left: -2em;
 
   @include breakpoint($tablet) {
-    @include grid-span(3, 1);
-    margin-left: -2em;
-    margin-top: 0em;
+    display:none;
   }
 
   @include breakpoint($desktop) {
@@ -121,5 +119,17 @@ main .aurora-section-third {
     margin-top: -3.15em;
     margin-right: 1.75em;
     text-align: right;
+  }
+}
+
+.panel-pane.pane-block.pane-menu-menu-main-menu-tablet {
+  @include breakpoint($tablet) {
+    @include grid-span(4, 1);
+    clear: both;
+    margin-top: -3.8em;
+  }
+
+  @include breakpoint($desktop) {
+    display:none;
   }
 }
