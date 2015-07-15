@@ -2673,16 +2673,11 @@ body.front main .aurora-section-third {
   }
 }
 
-body.page-node .aurora-sample-layout:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 body.page-node main .aurora-section-first {
   height: 180px;
-  clear: both;
   margin-top: -1.5em;
+  width: 100%;
+  clear: left;
 }
 @media (min-width: 600px) {
   body.page-node main .aurora-section-first {
@@ -2691,7 +2686,6 @@ body.page-node main .aurora-section-first {
     margin-left: 0;
     margin-right: 2.08333%;
     clear: none;
-    clear: both;
     height: 180px;
     margin-top: inherit;
   }
@@ -2704,13 +2698,14 @@ body.page-node main .aurora-section-first {
     margin-left: 0;
     margin-right: 1.04167%;
     height: 360px;
-    clear: both;
     margin-top: inherit;
+    width: inherit;
+    float: left;
   }
 }
 
 body.page-node main .aurora-section-second {
-  clear: both;
+  clear: left;
 }
 @media (min-width: 600px) {
   body.page-node main .aurora-section-second {
@@ -2719,7 +2714,7 @@ body.page-node main .aurora-section-second {
     margin-left: 0;
     margin-right: 2.08333%;
     clear: none;
-    clear: both;
+    clear: left;
   }
 }
 @media (min-width: 1024px) {
@@ -2730,7 +2725,7 @@ body.page-node main .aurora-section-second {
     margin-left: 0;
     margin-right: 1.04167%;
     height: 360px;
-    clear: both;
+    clear: left;
     margin-top: inherit;
   }
 }
