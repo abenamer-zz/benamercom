@@ -143,7 +143,8 @@ projects[module_filter][version] = 2.0
 projects[menu_html][subdir] = contrib
 projects[menu_html][version] = 1.0
 
-
+projects[ds][subdir] = contrib
+projects[ds][version] = 2.10
 
 ; Libraries
 libraries[prettify][download][type] = "file"
