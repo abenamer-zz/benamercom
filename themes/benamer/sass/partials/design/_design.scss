@@ -155,7 +155,7 @@ h2{
   }
 
   @include breakpoint($desktop) {
-    @include grid-span(3, 9);
+    @include grid-span(5, 9);
     margin-top: -3.15em;
     margin-right: 1.75em;
     text-align: right;
