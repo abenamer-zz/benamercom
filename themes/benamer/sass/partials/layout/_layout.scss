@@ -74,6 +74,8 @@ main .aurora-section-third {
 .panel-pane.pane-block.pane-system-main-menu {
   // mobile first
   display:none;
+  margin-top:-1.5em;
+  @include grid-span(1, 1);
   @include breakpoint($tablet) {
     display:none;
     @include grid-span(2, 1);

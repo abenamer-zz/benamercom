@@ -2683,6 +2683,12 @@ main .aurora-section-third {
 
 .panel-pane.pane-block.pane-system-main-menu {
   display: none;
+  margin-top: -1.5em;
+  width: 25%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 4.16667%;
+  clear: none;
 }
 @media (min-width: 600px) {
   .panel-pane.pane-block.pane-system-main-menu {
@@ -2846,7 +2852,7 @@ ul li.first.leaf {
 ul li.leaf {
   float: left;
   border-right: 1px solid #e2e2e2;
-  font-size: 1em;
+  font-size: .8em;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -2864,7 +2870,7 @@ ul li.leaf {
 ul li.last.leaf {
   float: left;
   border-right: 0px;
-  font-size: 1em;
+  font-size: .8em;
 }
 @media (min-width: 600px) {
   ul li.last.leaf {
