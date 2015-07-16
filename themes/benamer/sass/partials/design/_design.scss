@@ -7,13 +7,18 @@
 // All styling, non box model properties go here
 ////////////////////////
 
-
+// header backgrounds
 
 // frontpage
 body.front main section.aurora-frontpage-section.aurora-section-first {
   background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/benamercom-header.jpg");
 }
-// test
+
+body.front main section.aurora-article-section.aurora-section-first {
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/benamercom-header.jpg");
+}
+
+
 div .pane-blockify-blockify-site-slogan {
   margin-top:18px;
 }

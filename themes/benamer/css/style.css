@@ -2921,6 +2921,10 @@ body.front main section.aurora-frontpage-section.aurora-section-first {
   background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/benamercom-header.jpg");
 }
 
+body.front main section.aurora-article-section.aurora-section-first {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/benamercom-header.jpg");
+}
+
 div .pane-blockify-blockify-site-slogan {
   margin-top: 18px;
 }
