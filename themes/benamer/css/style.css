@@ -2589,72 +2589,6 @@ th {
   padding: 0;
 }
 
-body.page-node .aurora-sample-layout:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-body.page-node main .aurora-section-first {
-  height: 180px;
-  margin-top: -1.5em;
-  width: 100%;
-  clear: left;
-}
-@media (min-width: 600px) {
-  body.page-node main .aurora-section-first {
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    height: 180px;
-    margin-top: inherit;
-  }
-}
-@media (min-width: 1024px) {
-  body.page-node main .aurora-section-first {
-    width: 100%;
-    clear: right;
-    float: right;
-    margin-right: 0;
-    height: 360px;
-    margin-top: inherit;
-    float: left;
-    width: 100%;
-  }
-}
-
-body.page-node main .aurora-section-second {
-  clear: left;
-}
-@media (min-width: 600px) {
-  body.page-node main .aurora-section-second {
-    width: 95.83333%;
-    float: right;
-    margin-left: 0;
-    margin-right: 2.08333%;
-    clear: none;
-    clear: left;
-  }
-}
-@media (min-width: 1024px) {
-  body.page-node main .aurora-section-second {
-    width: 97.91667%;
-    clear: right;
-    float: right;
-    margin-left: 0;
-    margin-right: 1.04167%;
-    height: 360px;
-    clear: left;
-    margin-top: inherit;
-  }
-}
-
-body.page-node main .aurora-section-third {
-  display: none;
-}
-
 body.page-search main .aurora-sample-layout:after {
   content: "";
   display: table;
@@ -2674,10 +2608,10 @@ body.page-search main .aurora-section-first {
 }
 @media (min-width: 600px) {
   body.page-search main .aurora-section-first {
-    width: 95.83333%;
+    width: 100%;
     float: right;
     margin-left: 0;
-    margin-right: 2.08333%;
+    margin-right: 0;
     clear: none;
     clear: both;
     height: 180px;
@@ -2686,11 +2620,10 @@ body.page-search main .aurora-section-first {
 }
 @media (min-width: 1024px) {
   body.page-search main .aurora-section-first {
-    width: 97.91667%;
+    width: 100%;
     clear: right;
     float: right;
-    margin-left: 0;
-    margin-right: 1.04167%;
+    margin-right: 0;
     height: 360px;
     margin-top: inherit;
     float: left;
@@ -2917,7 +2850,74 @@ body.front main section.aurora-frontpage-section.aurora-section-third {
   }
 }
 
-.aurora-section-first {
+body.page-node aurora-article-layout:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body.node-type-article main section.aurora-article-section.aurora-section-first {
+  height: 180px;
+  margin-top: -1.5em;
+  width: 100%;
+  clear: left;
+}
+@media (min-width: 600px) {
+  body.node-type-article main section.aurora-article-section.aurora-section-first {
+    width: 95.83333%;
+    float: right;
+    margin-left: 0;
+    margin-right: 2.08333%;
+    clear: none;
+    height: 180px;
+    margin-top: inherit;
+  }
+}
+@media (min-width: 1024px) {
+  body.node-type-article main section.aurora-article-section.aurora-section-first {
+    width: 97.91667%;
+    clear: right;
+    float: right;
+    margin-left: 0;
+    margin-right: 1.04167%;
+    height: 360px;
+    margin-top: inherit;
+    float: left;
+    width: 100%;
+  }
+}
+
+body.page-node main section.aurora-article-section.aurora-section-second {
+  clear: left;
+}
+@media (min-width: 600px) {
+  body.page-node main section.aurora-article-section.aurora-section-second {
+    width: 95.83333%;
+    float: right;
+    margin-left: 0;
+    margin-right: 2.08333%;
+    clear: none;
+    clear: left;
+  }
+}
+@media (min-width: 1024px) {
+  body.page-node main section.aurora-article-section.aurora-section-second {
+    width: 97.91667%;
+    clear: right;
+    float: right;
+    margin-left: 0;
+    margin-right: 1.04167%;
+    height: 360px;
+    clear: left;
+    margin-top: inherit;
+  }
+}
+
+body.page-node main section.aurora-article-section.aurora-section-third {
+  display: none;
+}
+
+body.front main section.aurora-frontpage-section.aurora-section-first {
   background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/benamercom-header.jpg");
 }
 
