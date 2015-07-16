@@ -44,6 +44,13 @@ div#basic-page > section.aurora-article-section.aurora-section-second {
   }
 
 }
+
+
+div#basic-page > section.aurora-page-section.aurora-section-second div.panel-pane.pane-node-content {
+  margin-top: 1em;
+  float: left;
+}
+
 div#basic-page > section.aurora-article-section.aurora-section-third {
   display:none;
 }
