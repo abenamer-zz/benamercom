@@ -2929,6 +2929,15 @@ div .pane-blockify-blockify-site-slogan {
   margin-top: 18px;
 }
 
+h2.article-title a {
+  color: black;
+  text-decoration: none;
+}
+
+.field.field-name-title.field-type-ds.field-label-hidden {
+  margin-bottom: -1.25em;
+}
+
 h1#site-title a {
   font-family: 'Lobster Two';
   font-weight: 700;
