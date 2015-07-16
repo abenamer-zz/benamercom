@@ -2944,6 +2944,13 @@ article.ds-1col.node.node-article.node-promoted.view-mode-front_page.clearfix {
   cursor: pointer;
 }
 
+span.field.field-name-field-front-page-teaser-title.field-type-text.field-label-hidden {
+  font-family: 'OpenSans';
+  float: left;
+  padding-right: .5em;
+  font-weight: 800;
+}
+
 h1#site-title a {
   font-family: 'Lobster Two';
   font-weight: 700;
