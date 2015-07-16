@@ -7,10 +7,7 @@
 // All styling, non box model properties go here
 ////////////////////////
 
-// header backgrounds
-
-// frontpage
-
+// header backgrounds for all the different layouts
 body.front main section.aurora-frontpage-section.aurora-section-first {
   background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/benamercom-header.jpg");
 }
@@ -27,6 +24,7 @@ div#search > section.aurora-page-section.aurora-section-first {
   background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/benamercom-header.jpg");
 }
 
+// global styles
 .panel-pane.pane-views-panes.pane-frontpage-panel-pane-1 {
   margin-top: 1.15em;
 }
@@ -185,4 +183,11 @@ div.form-type-searchfield input[type="search"] {
 
 .panel-pane.pane-block.pane-search-form {
   margin-top: 2em;
+}
+
+// article style
+
+section.aurora-article-section .panel-pane.pane-node-content {
+  width: 90%;
+  margin: auto;
 }

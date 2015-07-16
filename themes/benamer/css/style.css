@@ -3260,3 +3260,8 @@ div.form-type-searchfield input[type="search"] {
 .panel-pane.pane-block.pane-search-form {
   margin-top: 2em;
 }
+
+section.aurora-article-section .panel-pane.pane-node-content {
+  width: 90%;
+  margin: auto;
+}
