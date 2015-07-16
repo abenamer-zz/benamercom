@@ -25,6 +25,8 @@ div#basic-page > section.aurora-page-section.aurora-section-first {
   }
 }
 
+
+
 div#basic-page > section.aurora-article-section.aurora-section-second {
   @include add-gutter-style('split');
   clear: left;
@@ -34,9 +36,11 @@ div#basic-page > section.aurora-article-section.aurora-section-second {
   }
   @include breakpoint($desktop) {
     @include grid-span(12, 1, $output-style: 'float');
-    height: 360px;
-    clear: left;
+    clear: both;
     margin-top: inherit;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
