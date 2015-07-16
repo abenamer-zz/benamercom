@@ -38,9 +38,7 @@ div#basic-page > section.aurora-page-section.aurora-section-second {
     @include grid-span(12, 1, $output-style: 'float');
     clear: both;
     margin-top: inherit;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
   }
 
 }
@@ -48,7 +46,9 @@ div#basic-page > section.aurora-page-section.aurora-section-second {
 
 div#basic-page > section.aurora-page-section.aurora-section-second div.panel-pane.pane-node-content {
   margin-top: 1em;
-  float: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div#basic-page > section.aurora-page-section.aurora-section-third {

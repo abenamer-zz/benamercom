@@ -2978,15 +2978,15 @@ div#basic-page > section.aurora-page-section.aurora-section-second {
     margin-right: 1.04167%;
     clear: both;
     margin-top: inherit;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
   }
 }
 
 div#basic-page > section.aurora-page-section.aurora-section-second div.panel-pane.pane-node-content {
   margin-top: 1em;
-  float: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div#basic-page > section.aurora-page-section.aurora-section-third {
