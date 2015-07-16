@@ -3056,7 +3056,7 @@ div#search > section.aurora-page-section.aurora-section-second {
   }
 }
 
-div#search > section.aurora-page-section.aurora-section-second div.panel-pane.pane-node-content {
+div#search > section.aurora-page-section.aurora-section-second div.panel-pane.pane-search-form {
   margin-top: 1em;
   width: 90%;
   margin-left: auto;

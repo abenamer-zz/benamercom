@@ -26,7 +26,6 @@ div#search > section.aurora-page-section.aurora-section-first {
 }
 
 
-
 div#search > section.aurora-page-section.aurora-section-second {
   @include add-gutter-style('split');
   clear: left;
@@ -43,12 +42,15 @@ div#search > section.aurora-page-section.aurora-section-second {
 
 }
 
-
-div#search > section.aurora-page-section.aurora-section-second div.panel-pane.pane-node-content {
+div#search > section.aurora-page-section.aurora-section-second div.panel-pane.pane-search-form {
   margin-top: 1em;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+div#search > section.aurora-page-section.aurora-section-second div.panel-pane.pane-search-result {
+
 }
 
 div#search > section.aurora-page-section.aurora-section-third {
