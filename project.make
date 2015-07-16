@@ -73,6 +73,7 @@ projects[modernizr][version] = 3.4
 
 projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = 1.16
+projects[drupal][patch][] = "https://www.drupal.org/files/issues/ckeditor-219995-jQuery_browser_test_deprecated-2.patch"
 
 projects[blockify][subdir] = contrib
 projects[blockify][version] = 1.2
