@@ -25,7 +25,7 @@ div#basic-page > section.aurora-page-section.aurora-section-first {
   }
 }
 
-body.page-node main section.aurora-article-section.aurora-section-second {
+div#basic-page > section.aurora-article-section.aurora-section-second {
   @include add-gutter-style('split');
   clear: left;
   @include breakpoint($tablet) {
@@ -40,6 +40,6 @@ body.page-node main section.aurora-article-section.aurora-section-second {
   }
 
 }
-body.page-node main section.aurora-article-section.aurora-section-third {
+div#basic-page > section.aurora-article-section.aurora-section-third {
   display:none;
 }

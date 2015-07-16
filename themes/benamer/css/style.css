@@ -2956,11 +2956,11 @@ div#basic-page > section.aurora-page-section.aurora-section-first {
   }
 }
 
-body.page-node main section.aurora-article-section.aurora-section-second {
+div#basic-page > section.aurora-article-section.aurora-section-second {
   clear: left;
 }
 @media (min-width: 600px) {
-  body.page-node main section.aurora-article-section.aurora-section-second {
+  div#basic-page > section.aurora-article-section.aurora-section-second {
     width: 95.83333%;
     float: right;
     margin-left: 0;
@@ -2970,7 +2970,7 @@ body.page-node main section.aurora-article-section.aurora-section-second {
   }
 }
 @media (min-width: 1024px) {
-  body.page-node main section.aurora-article-section.aurora-section-second {
+  div#basic-page > section.aurora-article-section.aurora-section-second {
     width: 97.91667%;
     clear: right;
     float: right;
@@ -2982,7 +2982,7 @@ body.page-node main section.aurora-article-section.aurora-section-second {
   }
 }
 
-body.page-node main section.aurora-article-section.aurora-section-third {
+div#basic-page > section.aurora-article-section.aurora-section-third {
   display: none;
 }
 
