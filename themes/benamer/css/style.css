@@ -2858,14 +2858,14 @@ body.page-node aurora-article-layout:after {
   clear: both;
 }
 
-body.node-type-article main section.aurora-article-section.aurora-section-first {
+div#article > section.aurora-article-section:first-child {
   height: 180px;
   margin-top: -1.5em;
   width: 100%;
   clear: left;
 }
 @media (min-width: 600px) {
-  body.node-type-article main section.aurora-article-section.aurora-section-first {
+  div#article > section.aurora-article-section:first-child {
     width: 95.83333%;
     float: right;
     margin-left: 0;
@@ -2876,7 +2876,7 @@ body.node-type-article main section.aurora-article-section.aurora-section-first 
   }
 }
 @media (min-width: 1024px) {
-  body.node-type-article main section.aurora-article-section.aurora-section-first {
+  div#article > section.aurora-article-section:first-child {
     width: 97.91667%;
     clear: right;
     float: right;
@@ -2923,7 +2923,7 @@ body.front main section.aurora-frontpage-section.aurora-section-first {
   background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/benamercom-header.jpg");
 }
 
-body.node-type-article section.aurora-article-section.aurora-section-first {
+div#article > section.aurora-article-section:first-child {
   background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/benamercom-header.jpg");
 }
 
