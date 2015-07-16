@@ -1,0 +1,56 @@
+// article pages layout styles
+// body.page-node
+
+body.page-node aurora-page-layout {
+  @include clearfix;
+}
+
+div#search > section.aurora-page-section.aurora-section-first {
+  height: 180px;
+  margin-top: -1.5em;
+  width:100%;
+  clear:left;
+  @include breakpoint($tablet) {
+    @include grid-span(6, 1);
+    height: 180px;
+    margin-top: inherit;
+  }
+
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1, $output-style: 'float');
+    height: 360px;
+    margin-top: inherit;
+    float:left;
+    width:100%;
+  }
+}
+
+
+
+div#search > section.aurora-page-section.aurora-section-second {
+  @include add-gutter-style('split');
+  clear: left;
+  @include breakpoint($tablet) {
+    @include grid-span(6, 1);
+    clear: left;
+  }
+  @include breakpoint($desktop) {
+    @include grid-span(12, 1, $output-style: 'float');
+    clear: both;
+    margin-top: inherit;
+    width: 100%;
+  }
+
+}
+
+
+div#search > section.aurora-page-section.aurora-section-second div.panel-pane.pane-node-content {
+  margin-top: 1em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#search > section.aurora-page-section.aurora-section-third {
+  display:none;
+}
