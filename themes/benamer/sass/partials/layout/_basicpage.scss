@@ -1,7 +1,7 @@
 // article pages layout styles
 // body.page-node
 
-body.page-node aurora-article-layout {
+body.page-node aurora-page-layout {
   @include clearfix;
 }
 
@@ -27,7 +27,7 @@ div#basic-page > section.aurora-page-section.aurora-section-first {
 
 
 
-div#basic-page > section.aurora-article-section.aurora-section-second {
+div#basic-page > section.aurora-page-section.aurora-section-second {
   @include add-gutter-style('split');
   clear: left;
   @include breakpoint($tablet) {
@@ -51,6 +51,6 @@ div#basic-page > section.aurora-page-section.aurora-section-second div.panel-pan
   float: left;
 }
 
-div#basic-page > section.aurora-article-section.aurora-section-third {
+div#basic-page > section.aurora-page-section.aurora-section-third {
   display:none;
 }

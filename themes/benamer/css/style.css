@@ -2919,7 +2919,7 @@ body.page-node main section.aurora-article-section.aurora-section-third {
   display: none;
 }
 
-body.page-node aurora-article-layout:after {
+body.page-node aurora-page-layout:after {
   content: "";
   display: table;
   clear: both;
@@ -2956,11 +2956,11 @@ div#basic-page > section.aurora-page-section.aurora-section-first {
   }
 }
 
-div#basic-page > section.aurora-article-section.aurora-section-second {
+div#basic-page > section.aurora-page-section.aurora-section-second {
   clear: left;
 }
 @media (min-width: 600px) {
-  div#basic-page > section.aurora-article-section.aurora-section-second {
+  div#basic-page > section.aurora-page-section.aurora-section-second {
     width: 95.83333%;
     float: right;
     margin-left: 0;
@@ -2970,7 +2970,7 @@ div#basic-page > section.aurora-article-section.aurora-section-second {
   }
 }
 @media (min-width: 1024px) {
-  div#basic-page > section.aurora-article-section.aurora-section-second {
+  div#basic-page > section.aurora-page-section.aurora-section-second {
     width: 97.91667%;
     clear: right;
     float: right;
@@ -2989,7 +2989,7 @@ div#basic-page > section.aurora-page-section.aurora-section-second div.panel-pan
   float: left;
 }
 
-div#basic-page > section.aurora-article-section.aurora-section-third {
+div#basic-page > section.aurora-page-section.aurora-section-third {
   display: none;
 }
 
