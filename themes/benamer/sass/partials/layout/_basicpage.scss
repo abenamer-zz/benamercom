@@ -19,7 +19,7 @@ div#basic-page > section.aurora-page-section.aurora-section-first {
   @include breakpoint($desktop) {
     @include grid-span(12, 1, $output-style: 'float');
     height: 360px;
-    margin-top: -1.5em;
+    margin-top: inherit;
     float:left;
     width:100%;
   }
