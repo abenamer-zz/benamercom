@@ -3079,6 +3079,10 @@ div#basic-page > section.aurora-page-section.aurora-section-first {
   background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/benamercom-header.jpg");
 }
 
+div#search > section.aurora-page-section.aurora-section-first {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent), url("../img/benamercom-header.jpg");
+}
+
 .panel-pane.pane-views-panes.pane-frontpage-panel-pane-1 {
   margin-top: 1.15em;
 }
