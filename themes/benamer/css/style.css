@@ -2949,21 +2949,20 @@ h1#site-title a {
   font-weight: 700;
   text-align: center;
   margin-top: -.125em;
-  margin-right: 1em;
-  font-size: 1.15em;
+  font-size: 1.2em;
   text-decoration: none;
   color: white;
 }
 @media (min-width: 600px) {
   h1#site-title a {
-    font-size: 1.15em;
+    font-size: 1.2em;
     text-decoration: none;
     color: white;
   }
 }
 @media (min-width: 1024px) {
   h1#site-title a {
-    font-size: .75em;
+    font-size: 1.2em;
     letter-spacing: .125em;
     text-decoration: none;
     color: white;

@@ -42,19 +42,17 @@ h1#site-title a{
   font-weight: 700;
   text-align: center;
   margin-top: -.125em;
-  margin-right: 1em;
-  font-size: 1.15em;
+  font-size: 1.2em;
   text-decoration: none;
   color: white;
 
   @include breakpoint($tablet) {
-
-    font-size: 1.15em;
+    font-size: 1.2em;
     text-decoration: none;
     color: white;
   }
   @include breakpoint($desktop) {
-    font-size: .75em;
+    font-size: 1.2em;
     letter-spacing: .125em;
     text-decoration: none;
     color: white;
