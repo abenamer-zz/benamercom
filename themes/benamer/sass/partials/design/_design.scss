@@ -15,7 +15,11 @@ body.front main section.aurora-frontpage-section.aurora-section-first {
   background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/benamercom-header.jpg");
 }
 
-div#article > section.aurora-article-section:first-child {
+div#article > section.aurora-article-section.aurora-section-first {
+  background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/benamercom-header.jpg");
+}
+
+div#basic-page > section.aurora-page-section.aurora-section-first {
   background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("../img/benamercom-header.jpg");
 }
 

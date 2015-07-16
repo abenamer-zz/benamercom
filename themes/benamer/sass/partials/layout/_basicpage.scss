@@ -5,7 +5,7 @@ body.page-node aurora-article-layout {
   @include clearfix;
 }
 
-div#basic-page > section.aurora-article-section:first-child {
+div#basic-page > section.aurora-page-section.aurora-section-first {
   height: 180px;
   margin-top: -1.5em;
   width:100%;
