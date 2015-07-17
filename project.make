@@ -112,7 +112,7 @@ projects[html5_tools][subdir] = contrib
 projects[html5_tools][version] = 1.2
 
 projects[aurora][subdir] = contrib
-projects[aurora][version] = 3.5
+projects[aurora][version] = 3.6
 
 projects[fontyourface][subdir] = contrib
 projects[fontyourface][version] = 2.8
