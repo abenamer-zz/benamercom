@@ -165,4 +165,3 @@ libraries[alchemyapi][download][url] = "http://alchemyapi.com/sites/default/file
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
-
