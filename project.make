@@ -150,11 +150,9 @@ projects[ds][version] = 2.10
 projects[responsive_favicons][subdir] = contrib
 projects[responsive_favicons][version] = 1.0
 
-
 ; Libraries
 libraries[prettify][download][type] = "file"
 libraries[prettify][download][url] = "https://github.com/google/code-prettify/archive/master.zip"
-
 
 libraries[modernizr][download][type] = "file"
 libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/archive/v2.8.3.zip"
