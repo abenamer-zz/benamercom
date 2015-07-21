@@ -2894,20 +2894,20 @@ body.page-node main section.aurora-article-section.aurora-section-second {
 }
 @media (min-width: 600px) {
   body.page-node main section.aurora-article-section.aurora-section-second {
-    width: 95.83333%;
-    float: right;
-    margin-left: 0;
-    margin-right: 2.08333%;
+    width: 29.16667%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 2.08333%;
     clear: none;
     clear: left;
   }
 }
 @media (min-width: 1024px) {
   body.page-node main section.aurora-article-section.aurora-section-second {
-    width: 97.91667%;
+    width: 31.25%;
     clear: right;
-    float: right;
-    margin-left: 0;
+    float: left;
+    margin-left: 1.04167%;
     margin-right: 1.04167%;
     height: 360px;
     clear: left;
@@ -2916,7 +2916,28 @@ body.page-node main section.aurora-article-section.aurora-section-second {
 }
 
 body.page-node main section.aurora-article-section.aurora-section-third {
-  display: none;
+  clear: left;
+}
+@media (min-width: 600px) {
+  body.page-node main section.aurora-article-section.aurora-section-third {
+    width: 162.5%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 35.41667%;
+    clear: none;
+    clear: left;
+  }
+}
+@media (min-width: 1024px) {
+  body.page-node main section.aurora-article-section.aurora-section-third {
+    width: 64.58333%;
+    clear: right;
+    float: right;
+    margin-left: 0;
+    margin-right: 1.04167%;
+    clear: left;
+    margin-top: inherit;
+  }
 }
 
 body.page-node aurora-page-layout:after {
