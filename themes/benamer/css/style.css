@@ -2904,7 +2904,7 @@ body.page-node main section.aurora-article-section.aurora-section-second {
 }
 @media (min-width: 1024px) {
   body.page-node main section.aurora-article-section.aurora-section-second {
-    width: 31.25%;
+    width: 22.91667%;
     clear: right;
     float: left;
     margin-left: 1.04167%;
@@ -2920,10 +2920,10 @@ body.page-node main section.aurora-article-section.aurora-section-third {
 }
 @media (min-width: 600px) {
   body.page-node main section.aurora-article-section.aurora-section-third {
-    width: 162.5%;
+    width: 62.5%;
     float: left;
     margin-right: -100%;
-    margin-left: 35.41667%;
+    margin-left: 18.75%;
     clear: none;
     clear: left;
   }
@@ -2932,10 +2932,10 @@ body.page-node main section.aurora-article-section.aurora-section-third {
   body.page-node main section.aurora-article-section.aurora-section-third {
     width: 64.58333%;
     clear: right;
-    float: right;
-    margin-left: 0;
+    float: left;
+    margin-left: 1.04167%;
     margin-right: 1.04167%;
-    clear: left;
+    clear: none;
     margin-top: inherit;
   }
 }
