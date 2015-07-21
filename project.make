@@ -150,6 +150,10 @@ projects[ds][version] = 2.10
 projects[responsive_favicons][subdir] = contrib
 projects[responsive_favicons][version] = 1.0
 
+projects[addthis][subdir] = contrib
+projects[addthis][version] = 4.0-alpha6
+
+
 ; Libraries
 libraries[prettify][download][type] = "file"
 libraries[prettify][download][url] = "https://github.com/google/code-prettify/archive/master.zip"
@@ -165,3 +169,4 @@ libraries[alchemyapi][download][url] = "http://alchemyapi.com/sites/default/file
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
+
