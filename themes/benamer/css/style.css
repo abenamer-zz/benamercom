@@ -2957,12 +2957,6 @@ body.page-node main section.aurora-article-section.aurora-section-third {
   margin-top: 1.75em;
 }
 
-h2.article-title {
-  font-family: 'Open Sans';
-  font-weight: 800;
-  font-size: 2.5em;
-}
-
 body.page-node aurora-page-layout:after {
   content: "";
   display: table;
@@ -3269,6 +3263,7 @@ ul li.last.leaf a:link, a:visited {
 h2 {
   font-family: 'Open Sans';
   font-weight: 800;
+  font-size: 1.5em;
 }
 
 .panel-pane.pane-block.pane-block-2 a {
@@ -3308,4 +3303,10 @@ div.form-type-searchfield input[type="search"] {
 section.aurora-article-section .panel-pane.pane-node-content {
   width: 90%;
   margin: auto;
+}
+
+h2.article-title {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 2.5em;
 }
