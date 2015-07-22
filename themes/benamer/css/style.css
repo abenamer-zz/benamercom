@@ -2890,6 +2890,8 @@ div#article > section.aurora-article-section:first-child {
 }
 
 body.page-node main section.aurora-article-section.aurora-section-second {
+  width: 90%;
+  margin-left: 1em;
   clear: left;
 }
 @media (min-width: 600px) {

@@ -27,6 +27,8 @@
 
   body.page-node main section.aurora-article-section.aurora-section-second {
     @include add-gutter-style('split');
+    width: 90%;
+    margin-left: 1em;
     clear: left;
     @include breakpoint($tablet) {
       @include grid-span(6, 1, $output-style: 'float');
