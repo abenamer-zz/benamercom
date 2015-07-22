@@ -2874,7 +2874,7 @@ body.page-node main section.aurora-article-section.aurora-section-first {
     height: 360px;
     margin-top: inherit;
     width: 100%;
-    float: right;
+    float: left;
   }
 }
 @media (min-width: 1024px) {
@@ -2905,7 +2905,7 @@ body.page-node main section.aurora-article-section.aurora-section-second {
     clear: none;
     clear: left;
     margin-left: 1em;
-    float: right;
+    float: left;
   }
 }
 @media (min-width: 1024px) {
@@ -2932,7 +2932,8 @@ body.page-node main section.aurora-article-section.aurora-section-third {
     margin-left: 0;
     margin-right: 2.08333%;
     clear: none;
-    clear: left;
+    clear: none;
+    float: right;
   }
 }
 @media (min-width: 1024px) {
