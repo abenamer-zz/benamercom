@@ -2871,11 +2871,10 @@ body.page-node main section.aurora-article-section.aurora-section-first {
     float: right;
     margin-left: 0;
     margin-right: 2.08333%;
-    height: 180px;
+    height: 360px;
     margin-top: inherit;
     width: 100%;
-    clear: left;
-    float: left;
+    float: right;
   }
 }
 @media (min-width: 1024px) {

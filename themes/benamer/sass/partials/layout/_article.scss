@@ -13,11 +13,10 @@
     float:left;
     @include breakpoint($tablet) {
       @include grid-span(6, 1,  $output-style: 'float');
-      height: 180px;
+      height: 360px;
       margin-top: inherit;
       width:100%;
-      clear:left;
-      float:left;
+      float:right;
     }
 
     @include breakpoint($desktop) {
