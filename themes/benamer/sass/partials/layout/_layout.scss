@@ -36,7 +36,7 @@ body.page-search main .aurora-section-first {
   @include breakpoint($tablet) {
     @include grid-span(6, 1);
     clear: both;
-    height: 180px;
+    height: 360px;
     margin-top: inherit;
 
   }

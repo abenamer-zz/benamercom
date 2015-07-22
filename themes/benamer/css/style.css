@@ -2614,7 +2614,7 @@ body.page-search main .aurora-section-first {
     margin-right: 0;
     clear: none;
     clear: both;
-    height: 180px;
+    height: 360px;
     margin-top: inherit;
   }
 }
@@ -2862,7 +2862,7 @@ body.page-node main section.aurora-article-section.aurora-section-first {
   height: 180px;
   margin-top: -1.5em;
   width: 100%;
-  clear: left;
+  float: left;
 }
 @media (min-width: 600px) {
   body.page-node main section.aurora-article-section.aurora-section-first {
@@ -2875,6 +2875,7 @@ body.page-node main section.aurora-article-section.aurora-section-first {
     margin-top: inherit;
     width: 100%;
     clear: left;
+    float: left;
   }
 }
 @media (min-width: 1024px) {
