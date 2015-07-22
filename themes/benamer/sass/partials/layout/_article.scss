@@ -31,7 +31,7 @@
     margin-left: 1em;
     clear: left;
     @include breakpoint($tablet) {
-      @include grid-span(2, 1, $output-style: 'float');
+      @include grid-span(2, 1);
       clear: left;
       margin-left:1em;
     }
