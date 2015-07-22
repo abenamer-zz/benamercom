@@ -169,6 +169,9 @@ libraries[text-statistics][download][url] = "https://github.com/DaveChild/Text-S
 libraries[alchemyapi][download][type] = "file"
 libraries[alchemyapi][download][url] = "http://alchemyapi.com/sites/default/files/sdk/AlchemyAPI_PHP5-0.8.tar.gz"
 
+libraries[disqus-php][download][type] = "file"
+libraries[disqus-php][download][url] = "https://github.com/disqus/disqus-php/archive/master.zip"
+
 ; Platform indicator module.
 projects[platform][version] = 1.3
 
