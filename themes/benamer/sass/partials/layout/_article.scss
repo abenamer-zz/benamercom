@@ -11,7 +11,7 @@
     margin-top: -1.5em;
     width:100%;
     clear:left;
-    @include breakpoint($tablet) {
+    @include breakpoint($tablet,  $output-style: 'float') {
       @include grid-span(6, 1);
       height: 180px;
       margin-top: inherit;
@@ -35,8 +35,10 @@
     clear: left;
     @include breakpoint($tablet) {
       @include grid-span(2, 1);
-      clear: left;
+      clear: none;
       margin-left:1em;
+      float:right;
+
     }
     @include breakpoint($desktop) {
       @include grid-span(3, 1, $output-style: 'float');
