@@ -2926,9 +2926,9 @@ body.page-node main section.aurora-article-section.aurora-section-third {
 @media (min-width: 600px) {
   body.page-node main section.aurora-article-section.aurora-section-third {
     width: 62.5%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 18.75%;
+    float: right;
+    margin-left: 0;
+    margin-right: 2.08333%;
     clear: none;
     clear: left;
   }
