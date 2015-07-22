@@ -44,10 +44,10 @@
   body.page-node main section.aurora-article-section.aurora-section-third {
     @include add-gutter-style('split');
     clear: left;
+    width: 90%;
+    margin-left: 1em;
     @include breakpoint($tablet) {
       @include grid-span(6, 1);
-      width: 90%;
-      margin-left: 1em;
       clear: left;
     }
     @include breakpoint($desktop) {

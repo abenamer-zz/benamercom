@@ -2918,6 +2918,8 @@ body.page-node main section.aurora-article-section.aurora-section-second {
 
 body.page-node main section.aurora-article-section.aurora-section-third {
   clear: left;
+  width: 90%;
+  margin-left: 1em;
 }
 @media (min-width: 600px) {
   body.page-node main section.aurora-article-section.aurora-section-third {
@@ -2926,8 +2928,6 @@ body.page-node main section.aurora-article-section.aurora-section-third {
     margin-left: 0;
     margin-right: 2.08333%;
     clear: none;
-    width: 90%;
-    margin-left: 1em;
     clear: left;
   }
 }
