@@ -2906,6 +2906,7 @@ body.page-node main section.aurora-article-section.aurora-section-second {
     clear: left;
     margin-left: 1em;
     float: left;
+    margin-top: inherit;
   }
 }
 @media (min-width: 1024px) {
