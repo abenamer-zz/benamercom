@@ -153,6 +153,8 @@ projects[responsive_favicons][version] = 1.0
 projects[addthis][subdir] = contrib
 projects[addthis][version] = 4.0-alpha6
 
+projects[disqus][subdir] = contrib
+projects[disqus][version] = 1.12
 
 ; Libraries
 libraries[prettify][download][type] = "file"
