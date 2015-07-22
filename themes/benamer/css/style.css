@@ -2895,10 +2895,10 @@ body.page-node main section.aurora-article-section.aurora-section-second {
 @media (min-width: 600px) {
   body.page-node main section.aurora-article-section.aurora-section-second {
     width: 29.16667%;
+    clear: right;
     float: left;
-    margin-right: -100%;
     margin-left: 2.08333%;
-    clear: none;
+    margin-right: 2.08333%;
     clear: left;
   }
 }

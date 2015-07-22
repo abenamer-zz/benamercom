@@ -29,7 +29,7 @@
     @include add-gutter-style('split');
     clear: left;
     @include breakpoint($tablet) {
-      @include grid-span(2, 1);
+      @include grid-span(2, 1, $output-style: 'float');
       clear: left;
     }
     @include breakpoint($desktop) {
