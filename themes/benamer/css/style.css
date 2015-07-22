@@ -2957,6 +2957,12 @@ body.page-node main section.aurora-article-section.aurora-section-third {
   margin-top: 1.75em;
 }
 
+h2.article-title {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
 body.page-node aurora-page-layout:after {
   content: "";
   display: table;
