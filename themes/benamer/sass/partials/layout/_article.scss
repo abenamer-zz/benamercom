@@ -33,6 +33,7 @@
     width: 90%;
     margin-left: 1em;
     clear: left;
+    float:left;
     @include breakpoint($tablet) {
       @include grid-span(2, 1);
       clear: left;

@@ -2895,6 +2895,7 @@ body.page-node main section.aurora-article-section.aurora-section-second {
   width: 90%;
   margin-left: 1em;
   clear: left;
+  float: left;
 }
 @media (min-width: 600px) {
   body.page-node main section.aurora-article-section.aurora-section-second {
