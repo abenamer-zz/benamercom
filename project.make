@@ -145,7 +145,7 @@ projects[menu_html][subdir] = contrib
 projects[menu_html][version] = 1.0
 
 projects[ds][subdir] = contrib
-projects[ds][version] = 2.10
+projects[ds][version] = 2.11
 
 projects[responsive_favicons][subdir] = contrib
 projects[responsive_favicons][version] = 1.0
