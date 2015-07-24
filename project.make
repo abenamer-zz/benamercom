@@ -57,7 +57,7 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 2.2
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.6
+projects[metatag][version] = 1.7
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.6
