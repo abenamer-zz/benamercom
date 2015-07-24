@@ -167,7 +167,7 @@ libraries[text-statistics][download][type] = "file"
 libraries[text-statistics][download][url] = "https://github.com/DaveChild/Text-Statistics/archive/1.0.1.zip"
 
 libraries[alchemyapi][download][type] = "file"
-libraries[alchemyapi][download][destination] = contrib/alchemy/AlchemyAPI
+libraries[alchemyapi][download][destination] = modules/contrib/alchemy/AlchemyAPI
 libraries[alchemyapi][download][url] = "http://alchemyapi.com/sites/default/files/sdk/AlchemyAPI_PHP5-0.8.tar.gz"
 
 libraries[disqus-php][download][type] = "file"
