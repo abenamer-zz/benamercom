@@ -168,7 +168,7 @@ libraries[text-statistics][download][url] = "https://github.com/DaveChild/Text-S
 
 libraries[alchemyapi][download][type] = "file"
 libraries[alchemyapi][download][url] = "http://alchemyapi.com/sites/default/files/sdk/AlchemyAPI_PHP5-0.8.tar.gz"
-libraries[alchemyapi][download][filename]=AlchemyAPI
+libraries[alchemyapi][directory_name]=AlchemyAPI
 libraries[alchemyapi][overwrite]=true
 libraries[alchemyapi][destination] = modules/contrib/alchemy
 
