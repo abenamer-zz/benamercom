@@ -166,18 +166,16 @@ libraries[modernizr][download][url] = "https://github.com/Modernizr/Modernizr/ar
 libraries[text-statistics][download][type] = "file"
 libraries[text-statistics][download][url] = "https://github.com/DaveChild/Text-Statistics/archive/1.0.1.zip"
 
-libraries[alchemyapi][download][type] = "file"
-libraries[alchemyapi][download][url] = "http://alchemyapi.com/sites/default/files/sdk/AlchemyAPI_PHP5-0.8.tar.gz"
-libraries[alchemyapi][directory_name]=AlchemyAPI
-libraries[alchemyapi][overwrite]=true
-libraries[alchemyapi][destination] = modules/contrib/alchemy
+libraries[AlchemyAPI][download][type] = "file"
+libraries[AlchemyAPI][download][url] = "http://alchemyapi.com/sites/default/files/sdk/AlchemyAPI_PHP5-0.8.tar.gz"
+libraries[AlchemyAPI][destination] = modules/contrib/alchemy
 
 libraries[disqus-php][download][type] = "file"
 libraries[disqus-php][download][url] = "https://github.com/disqus/disqus-php/archive/master.zip"
 
-libraries[class.autokeyword.php][download][type] = "file"
-libraries[class.autokeyword.php][download][url] = https://github.com/abenamer/benamercom/blob/master/class.autokeyword.php
-libraries[class.autokeyword.php][destination] = modules/contrib/kwanalysis/lib
+libraries[lib][download][type] = "file"
+libraries[lib][download][url] = https://github.com/abenamer/benamercom/blob/master/class.autokeyword.php
+libraries[lib][destination] = modules/contrib/kwanalysis
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
