@@ -183,4 +183,4 @@ libraries[autokeyword][download][type] = "file"
 libraries[autokeyword][download][url] = "https://github.com/abenamer/class-autokeyword/archive/master.zip"
 
 libraries[php-text-statistics][download][type] = "file"
-libraries[php-text-statistics][download][url] = "https://github.com/DaveChild/Text-Statistics/archive/master.zip"
+libraries[php-text-statistics][download][url] = "https://github.com/abenamer/php-text-statistics/archive/master.zip"
