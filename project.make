@@ -184,9 +184,12 @@ libraries[disqus-php][download][url] = "https://github.com/disqus/disqus-php/arc
 ;libraries[autokeyword][download][url] = https://github.com/abenamer/benamercom/blob/master/class.autokeyword.php
 ;libraries[lib][destination] = modules/custom/kwanalysis
 
-libraries[lib][download][type] = "file"
-libraries[lib][download][url] = "https://github.com/abenamer/class-autokeyword/archive/master.zip"
-libraries[lib][destination] = modules/custom/kwanalysis
+;libraries[lib][download][type] = "file"
+;libraries[lib][download][url] = "https://github.com/abenamer/class-autokeyword/archive/master.zip"
+;libraries[lib][destination] = modules/contrib/kwanalysis
+
+libraries[autokeyword][download][type] = "file"
+libraries[autokeyword][download][url] = "https://github.com/abenamer/class-autokeyword/archive/master.zip"
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
