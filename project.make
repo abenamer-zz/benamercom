@@ -45,7 +45,7 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.x-dev
 
 projects[alchemy][subdir] = contrib
-projects[alchemy][version] = 1.0-beta1
+projects[alchemy][version] = 1.x-dev
 
 projects[contentanalysis][subdir] = contrib
 projects[contentanalysis][version] = 1.0-beta7
