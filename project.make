@@ -159,6 +159,9 @@ projects[addthis][version] = 4.0-alpha6
 projects[disqus][subdir] = contrib
 projects[disqus][version] = 1.12
 
+; Platform indicator module.
+projects[platform][version] = 1.3
+
 ; Libraries
 libraries[prettify][download][type] = "file"
 libraries[prettify][download][url] = "https://github.com/google/code-prettify/archive/master.zip"
@@ -179,12 +182,5 @@ libraries[disqus-php][download][url] = "https://github.com/disqus/disqus-php/arc
 libraries[autokeyword][download][type] = "file"
 libraries[autokeyword][download][url] = "https://github.com/abenamer/class-autokeyword/archive/master.zip"
 
-libraries[text-statistics][download][type] = "file"
-libraries[text-statistics][download][url] = "https://github.com/DaveChild/Text-Statistics/archive/master.zip"
-
-
-
-
-; Platform indicator module.
-projects[platform][version] = 1.3
-
+libraries[php-text-statistics][download][type] = "file"
+libraries[php-text-statistics][download][url] = "https://github.com/DaveChild/Text-Statistics/archive/master.zip"
