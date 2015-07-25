@@ -184,9 +184,8 @@ libraries[disqus-php][download][url] = "https://github.com/disqus/disqus-php/arc
 ;libraries[autokeyword][download][url] = https://github.com/abenamer/benamercom/blob/master/class.autokeyword.php
 ;libraries[lib][destination] = modules/custom/kwanalysis
 
-libraries[lib][download][type] = git
-libraries[lib][download][branch] = master
-libraries[lib][download][url] = "git@github.com:abenamer/class-autokeyword.git
+libraries[lib][download][type] = "file"
+libraries[lib][download][url] = "https://github.com/abenamer/class-autokeyword/archive/master.zip"
 libraries[lib][destination] = modules/custom/kwanalysis
 
 ; Platform indicator module.
