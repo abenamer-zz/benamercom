@@ -175,9 +175,9 @@ libraries[alchemyapi][destination] = modules/contrib/alchemy
 libraries[disqus-php][download][type] = "file"
 libraries[disqus-php][download][url] = "https://github.com/disqus/disqus-php/archive/master.zip"
 
-libraries[class-autokeyword][download][type] = "file"
-libraries[class-autokeyword][download][url] = https://github.com/abenamer/benamercom/blob/master/class.autokeyword.php
-libraries[class-autokeyword][destination] = modules/contrib/kwanalysis/lib
+libraries[class.autokeyword.php][download][type] = "file"
+libraries[class.autokeyword.php][download][url] = https://github.com/abenamer/benamercom/blob/master/class.autokeyword.php
+libraries[class.autokeyword.php][destination] = modules/contrib/kwanalysis/lib
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
