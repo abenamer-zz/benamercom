@@ -38,12 +38,8 @@ projects[kwresearch][version] = 1.x-dev
 projects[kwanalysis][subdir] = contrib
 projects[kwanalysis][version] = 1.0-beta3
 
-;projects[kwanalysis][type] = module
-;projects[kwanalysis][subdir] = "custom"
-;projects[kwanalysis][download][type] = git
-;projects[kwanalysis][download][branch] = 7.x-1.x
-;projects[kwanalysis][download][url] = "git@github.com:abenamer/kwanalysis.git"
-
+projects[readability][subdir] = contrib
+projects[readability][version] = 1.0-rc2
 
 projects[features][subdir] = contrib
 projects[features][version] = 2.6
@@ -180,16 +176,14 @@ libraries[AlchemyAPI][destination] = modules/contrib/alchemy
 libraries[disqus-php][download][type] = "file"
 libraries[disqus-php][download][url] = "https://github.com/disqus/disqus-php/archive/master.zip"
 
-;libraries[autokeyword][download][type] = "file"
-;libraries[autokeyword][download][url] = https://github.com/abenamer/benamercom/blob/master/class.autokeyword.php
-;libraries[lib][destination] = modules/custom/kwanalysis
-
-;libraries[lib][download][type] = "file"
-;libraries[lib][download][url] = "https://github.com/abenamer/class-autokeyword/archive/master.zip"
-;libraries[lib][destination] = modules/contrib/kwanalysis
-
 libraries[autokeyword][download][type] = "file"
 libraries[autokeyword][download][url] = "https://github.com/abenamer/class-autokeyword/archive/master.zip"
+
+libraries[text-statistics][download][type] = "file"
+libraries[text-statistics][download][url] = "https://github.com/DaveChild/Text-Statistics/archive/master.zip"
+
+
+
 
 ; Platform indicator module.
 projects[platform][version] = 1.3
