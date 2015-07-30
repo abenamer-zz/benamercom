@@ -159,6 +159,9 @@ projects[addthis][version] = 4.0-alpha6
 projects[disqus][subdir] = contrib
 projects[disqus][version] = 1.12
 
+projects[chartbeat][subdir] = contrib
+projects[chartbeat][version] = 2.0
+
 ; Platform indicator module.
 projects[platform][version] = 1.3
 
